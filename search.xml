@@ -1,61 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>使用hexo部署blog</title>
-    <url>/2020/05/27/%E4%BD%BF%E7%94%A8hexo%E9%83%A8%E7%BD%B2blog/</url>
-    <content><![CDATA[<p>本文为刚开始建立网站时所写。由于边写边干，有明显的逻辑不清。主要目的在于记录和方便回看。</p>
-<h1 id="1-从git安装到部署hexo"><a href="#1-从git安装到部署hexo" class="headerlink" title="1. 从git安装到部署hexo"></a>1. 从git安装到部署hexo</h1><p>根据知乎<a href="https://www.zhihu.com/people/fang-ze-hua-56" target="_blank" rel="noopener">直上云霄</a>的回答：<a href="https://zhuanlan.zhihu.com/p/44213627" target="_blank" rel="noopener">hexo超完整的搭建教程，让你拥有一个专属个人博客</a>进行部署。参考了customize之前的内容，未设置个人域名。</p>
-<p>搭建时主要内容包括：</p>
-<ul>
-<li>安装git、node.js、hexo</li>
-<li>GitHub创建个人仓库</li>
-<li>生成SSH添加至GitHub</li>
-<li>将hexo部署至GitHub</li>
-<li>设置个人域名</li>
-<li>发布文章</li>
-</ul>
-<p>该回答还有关于hexo的基本配置，更换主题，实现多终端工作和添加各种功能，包括搜索的SEO，阅读量统计，访问量统计和评论系统等的内容，以后仍需参考。</p>
-<a id="more"></a>
-
-<h1 id="2-主题设置等"><a href="#2-主题设置等" class="headerlink" title="2. 主题设置等"></a>2. 主题设置等</h1><p>参考<a href="https://www.zhihu.com/people/wurun" target="_blank" rel="noopener">吴润</a>的回答：<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">GitHub+ Hexo搭建个人网站详细教程</a>，同样也很详细。</p>
-<h1 id="3-参考hexo官方文件"><a href="#3-参考hexo官方文件" class="headerlink" title="3. 参考hexo官方文件"></a>3. 参考hexo官方文件</h1><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">点击这里</a>。内容包括安装、使用方法、命令、主题等。</p>
-<h1 id="4-添加分类及标签"><a href="#4-添加分类及标签" class="headerlink" title="4. 添加分类及标签"></a>4. 添加分类及标签</h1><p>是针对主题的config设置，参考回答：<a href="https://www.jianshu.com/p/e17711e44e00" target="_blank" rel="noopener">Hexo使用攻略-添加分类及标签</a>。</p>
-<h1 id="5-更多个性化设置"><a href="#5-更多个性化设置" class="headerlink" title="5. 更多个性化设置"></a>5. 更多个性化设置</h1><p>主要参考文章<a href="http://www.360doc.com/content/19/0418/20/22888630_829741117.shtml" target="_blank" rel="noopener">hexo的Next主题详细配置</a>。</p>
-<p>使用到的内容包括：</p>
-<ol>
-<li>头像设置 Sidebar Avatar</li>
-<li>添加搜索功能</li>
-<li>添加阅读全文按钮</li>
-<li>设置文章字体的颜色、大小、居中（使用html语法）</li>
-</ol>
-<h2 id="5-1-取消网站自带的文章目录编号"><a href="#5-1-取消网站自带的文章目录编号" class="headerlink" title="5.1 取消网站自带的文章目录编号"></a>5.1 取消网站自带的文章目录编号</h2><p>主题配置文件——toc——number改成false</p>
-<h2 id="5-2-字数统计和阅读时长功能"><a href="#5-2-字数统计和阅读时长功能" class="headerlink" title="5.2 字数统计和阅读时长功能"></a>5.2 字数统计和阅读时长功能</h2><ul>
-<li>安装插件</li>
-</ul>
-<p><code>npm install hexo-symbols-count-time --save</code></p>
-<ul>
-<li>修改<strong>站点</strong>配置文件</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#文章内是否显示</span><br><span class="line"> symbols: true</span><br><span class="line"> time: true</span><br><span class="line">#网页底部是否显示</span><br><span class="line"> total_symbols: true</span><br><span class="line"> total_time: true</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>修改<strong>主题</strong>配置文件</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">separated_meta: true</span><br><span class="line">#文章中的显示是否显示文字（本文字数|阅读时长） </span><br><span class="line">item_text_post: true</span><br><span class="line">#网页底部的显示是否显示文字（站点总字数|站点阅读时长） </span><br><span class="line">item_text_total: false</span><br><span class="line">#Average Word Length (chars count in word)</span><br><span class="line">awl: 4</span><br><span class="line">#Words Per Minute</span><br><span class="line">wpm: 275</span><br></pre></td></tr></table></figure>
-
-<h2 id="5-3-Next主题颜色"><a href="#5-3-Next主题颜色" class="headerlink" title="5.3 Next主题颜色"></a>5.3 Next主题颜色</h2><p><a href="https://www.jianshu.com/p/ad0d867a8cb6" target="_blank" rel="noopener">详细教程</a>。主要是不喜欢目录中，选中部分变成了红色。</p>
-<p><code>hexo/themes/next/source/css/_variables/base.styl</code>找到Colors</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// colors for use across theme.</span></span><br><span class="line"><span class="comment">// --------------------------------------------------</span></span><br><span class="line">  $whitesmoke   = <span class="comment">#f5f5f5</span></span><br><span class="line">  $gainsboro    = <span class="comment">#eee  //这个是边栏头像外框的颜色，</span></span><br><span class="line">  $gray-lighter = <span class="comment">#ddd  //文章中插入图片边框颜色</span></span><br><span class="line">  $grey-light   = <span class="comment">#ccc  //文章之间分割线、下划线颜色</span></span><br><span class="line">  $grey         = <span class="comment">#bbb  //页面选中圆点颜色</span></span><br><span class="line">  $grey-dark    = <span class="comment">#999</span></span><br><span class="line">  $grey-dim     = <span class="comment">#666 //侧边栏目录字体颜色</span></span><br><span class="line">  $black-light  = <span class="comment">#555 //修改文章字体颜色</span></span><br><span class="line">  $black-dim    = <span class="comment">#333</span></span><br><span class="line">  $black-deep   = <span class="comment">#495a80  //修改主题的颜色，这里我已经改成老蓝色了。</span></span><br><span class="line">  $red          = <span class="comment">#ff2a2a</span></span><br><span class="line">  $blue-bright  = <span class="comment">#87daff</span></span><br><span class="line">  $blue         = <span class="comment">#0684bd</span></span><br><span class="line">  $blue-deep    = <span class="comment">#262a30</span></span><br><span class="line">  $orange       = <span class="comment">#F39D01 //浏览文章时，目录选中的颜色</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>hexo 网站部署</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>初次部署遇到的问题</title>
     <url>/2020/05/26/%E5%88%9D%E6%AC%A1%E9%83%A8%E7%BD%B2%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h1 id="1-更新延迟问题"><a href="#1-更新延迟问题" class="headerlink" title="1. 更新延迟问题"></a>1. 更新延迟问题</h1><p>表现为在修改本地文件后，使用hexo clean&amp; hexo generate&amp; hexo deploy后，网站不会及时作出反应。</p>
@@ -110,6 +55,61 @@
 <li><p>在某些情况（尤其是更换主题后），如果发现对站点的更改无论如何也不生效，可能需要运行该命令</p>
 </li>
 </ul>
+]]></content>
+      <categories>
+        <category>hexo 网站部署</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用hexo部署blog</title>
+    <url>/2020/05/27/%E4%BD%BF%E7%94%A8hexo%E9%83%A8%E7%BD%B2blog/</url>
+    <content><![CDATA[<p>本文为刚开始建立网站时所写。由于边写边干，有明显的逻辑不清。主要目的在于记录和方便回看。</p>
+<h1 id="1-从git安装到部署hexo"><a href="#1-从git安装到部署hexo" class="headerlink" title="1. 从git安装到部署hexo"></a>1. 从git安装到部署hexo</h1><p>根据知乎<a href="https://www.zhihu.com/people/fang-ze-hua-56" target="_blank" rel="noopener">直上云霄</a>的回答：<a href="https://zhuanlan.zhihu.com/p/44213627" target="_blank" rel="noopener">hexo超完整的搭建教程，让你拥有一个专属个人博客</a>进行部署。参考了customize之前的内容，未设置个人域名。</p>
+<p>搭建时主要内容包括：</p>
+<ul>
+<li>安装git、node.js、hexo</li>
+<li>GitHub创建个人仓库</li>
+<li>生成SSH添加至GitHub</li>
+<li>将hexo部署至GitHub</li>
+<li>设置个人域名</li>
+<li>发布文章</li>
+</ul>
+<p>该回答还有关于hexo的基本配置，更换主题，实现多终端工作和添加各种功能，包括搜索的SEO，阅读量统计，访问量统计和评论系统等的内容，以后仍需参考。</p>
+<a id="more"></a>
+
+<h1 id="2-主题设置等"><a href="#2-主题设置等" class="headerlink" title="2. 主题设置等"></a>2. 主题设置等</h1><p>参考<a href="https://www.zhihu.com/people/wurun" target="_blank" rel="noopener">吴润</a>的回答：<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">GitHub+ Hexo搭建个人网站详细教程</a>，同样也很详细。</p>
+<h1 id="3-参考hexo官方文件"><a href="#3-参考hexo官方文件" class="headerlink" title="3. 参考hexo官方文件"></a>3. 参考hexo官方文件</h1><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">点击这里</a>。内容包括安装、使用方法、命令、主题等。</p>
+<h1 id="4-添加分类及标签"><a href="#4-添加分类及标签" class="headerlink" title="4. 添加分类及标签"></a>4. 添加分类及标签</h1><p>是针对主题的config设置，参考回答：<a href="https://www.jianshu.com/p/e17711e44e00" target="_blank" rel="noopener">Hexo使用攻略-添加分类及标签</a>。</p>
+<h1 id="5-更多个性化设置"><a href="#5-更多个性化设置" class="headerlink" title="5. 更多个性化设置"></a>5. 更多个性化设置</h1><p>主要参考文章<a href="http://www.360doc.com/content/19/0418/20/22888630_829741117.shtml" target="_blank" rel="noopener">hexo的Next主题详细配置</a>。</p>
+<p>使用到的内容包括：</p>
+<ol>
+<li>头像设置 Sidebar Avatar</li>
+<li>添加搜索功能</li>
+<li>添加阅读全文按钮</li>
+<li>设置文章字体的颜色、大小、居中（使用html语法）</li>
+</ol>
+<h2 id="5-1-取消网站自带的文章目录编号"><a href="#5-1-取消网站自带的文章目录编号" class="headerlink" title="5.1 取消网站自带的文章目录编号"></a>5.1 取消网站自带的文章目录编号</h2><p>主题配置文件——toc——number改成false</p>
+<h2 id="5-2-字数统计和阅读时长功能"><a href="#5-2-字数统计和阅读时长功能" class="headerlink" title="5.2 字数统计和阅读时长功能"></a>5.2 字数统计和阅读时长功能</h2><ul>
+<li>安装插件</li>
+</ul>
+<p><code>npm install hexo-symbols-count-time --save</code></p>
+<ul>
+<li>修改<strong>站点</strong>配置文件</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#文章内是否显示</span><br><span class="line"> symbols: true</span><br><span class="line"> time: true</span><br><span class="line">#网页底部是否显示</span><br><span class="line"> total_symbols: true</span><br><span class="line"> total_time: true</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>修改<strong>主题</strong>配置文件</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">separated_meta: true</span><br><span class="line">#文章中的显示是否显示文字（本文字数|阅读时长） </span><br><span class="line">item_text_post: true</span><br><span class="line">#网页底部的显示是否显示文字（站点总字数|站点阅读时长） </span><br><span class="line">item_text_total: false</span><br><span class="line">#Average Word Length (chars count in word)</span><br><span class="line">awl: 4</span><br><span class="line">#Words Per Minute</span><br><span class="line">wpm: 275</span><br></pre></td></tr></table></figure>
+
+<h2 id="5-3-Next主题颜色"><a href="#5-3-Next主题颜色" class="headerlink" title="5.3 Next主题颜色"></a>5.3 Next主题颜色</h2><p><a href="https://www.jianshu.com/p/ad0d867a8cb6" target="_blank" rel="noopener">详细教程</a>。主要是不喜欢目录中，选中部分变成了红色。</p>
+<p><code>hexo/themes/next/source/css/_variables/base.styl</code>找到Colors</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// colors for use across theme.</span></span><br><span class="line"><span class="comment">// --------------------------------------------------</span></span><br><span class="line">  $whitesmoke   = <span class="comment">#f5f5f5</span></span><br><span class="line">  $gainsboro    = <span class="comment">#eee  //这个是边栏头像外框的颜色，</span></span><br><span class="line">  $gray-lighter = <span class="comment">#ddd  //文章中插入图片边框颜色</span></span><br><span class="line">  $grey-light   = <span class="comment">#ccc  //文章之间分割线、下划线颜色</span></span><br><span class="line">  $grey         = <span class="comment">#bbb  //页面选中圆点颜色</span></span><br><span class="line">  $grey-dark    = <span class="comment">#999</span></span><br><span class="line">  $grey-dim     = <span class="comment">#666 //侧边栏目录字体颜色</span></span><br><span class="line">  $black-light  = <span class="comment">#555 //修改文章字体颜色</span></span><br><span class="line">  $black-dim    = <span class="comment">#333</span></span><br><span class="line">  $black-deep   = <span class="comment">#495a80  //修改主题的颜色，这里我已经改成老蓝色了。</span></span><br><span class="line">  $red          = <span class="comment">#ff2a2a</span></span><br><span class="line">  $blue-bright  = <span class="comment">#87daff</span></span><br><span class="line">  $blue         = <span class="comment">#0684bd</span></span><br><span class="line">  $blue-deep    = <span class="comment">#262a30</span></span><br><span class="line">  $orange       = <span class="comment">#F39D01 //浏览文章时，目录选中的颜色</span></span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>hexo 网站部署</category>

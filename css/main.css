@@ -5,7 +5,7 @@
   --text-color: #555;
   --blockquote-color: #666;
   --link-color: #555;
-  --link-hover-color: #191970;
+  --link-hover-color: #2f4f4f;
   --brand-color: #fff;
   --brand-hover-color: #fff;
   --table-row-odd-bg-color: #f9f9f9;
@@ -14,9 +14,9 @@
   --btn-default-bg: #fff;
   --btn-default-color: #555;
   --btn-default-border-color: #555;
-  --btn-default-hover-bg: #191970;
+  --btn-default-hover-bg: #2f4f4f;
   --btn-default-hover-color: #fff;
-  --btn-default-hover-border-color: #191970;
+  --btn-default-hover-border-color: #2f4f4f;
 }
 html {
   line-height: 1.15; /* 1 */
@@ -672,13 +672,13 @@ pre .javascript .function {
   border-bottom: 1px solid transparent;
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
-  border-top: 3px solid #4169e1;
+  border-top: 3px solid #000080;
 }
 @media (max-width: 413px) {
   .post-body .tabs ul.nav-tabs li.tab.active,
   .tabs-comment ul.nav-tabs li.tab.active {
     border-bottom: 1px solid #ddd;
-    border-left: 3px solid #4169e1;
+    border-left: 3px solid #000080;
     border-right: 1px solid #ddd;
     border-top: 1px solid #ddd;
   }
@@ -845,7 +845,7 @@ pre .javascript .function {
 .pagination .prev:hover,
 .pagination .next:hover,
 .pagination .page-number:hover {
-  border-top-color: #191970;
+  border-top-color: #2f4f4f;
 }
 .pagination .space {
   margin: 0;
@@ -877,7 +877,7 @@ pre .javascript .function {
   .pagination .prev:hover,
   .pagination .next:hover,
   .pagination .page-number:hover {
-    border-bottom-color: #191970;
+    border-bottom-color: #2f4f4f;
   }
 }
 .comments {
@@ -961,7 +961,7 @@ pre .javascript .function {
   padding: 0 10px;
 }
 .headband {
-  background: #191970;
+  background: #2f4f4f;
   height: 3px;
 }
 .site-meta {
@@ -1105,7 +1105,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .sidebar {
-  background: #191970;
+  background: #2f4f4f;
   bottom: 0;
   box-shadow: inset 0 2px 6px #000;
   position: fixed;
@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff70ff;
+  background: #67ffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1181,9 +1181,9 @@ pre .javascript .function {
   margin-top: 15px;
 }
 .sidebar-button a {
-  border: 1px solid #4169e1;
+  border: 1px solid #000080;
   border-radius: 4px;
-  color: #4169e1;
+  color: #000080;
   display: inline-block;
   padding: 0 15px;
 }
@@ -1194,8 +1194,8 @@ pre .javascript .function {
   margin-right: 5px;
 }
 .sidebar-button a:hover {
-  background: #4169e1;
-  border: 1px solid #4169e1;
+  background: #000080;
+  border: 1px solid #000080;
   color: #fff;
 }
 .sidebar-button a:hover .fa,
@@ -1255,14 +1255,14 @@ pre .javascript .function {
   margin-left: 10px;
 }
 .sidebar-nav li:hover {
-  color: #4169e1;
+  color: #000080;
 }
 .sidebar-nav .sidebar-nav-active {
-  border-bottom-color: #4169e1;
-  color: #4169e1;
+  border-bottom-color: #000080;
+  color: #000080;
 }
 .sidebar-nav .sidebar-nav-active:hover {
-  color: #4169e1;
+  color: #000080;
 }
 .sidebar-panel {
   display: none;
@@ -1273,7 +1273,7 @@ pre .javascript .function {
   display: block;
 }
 .sidebar-toggle {
-  background: #191970;
+  background: #2f4f4f;
   bottom: 45px;
   cursor: pointer;
   height: 14px;
@@ -1291,7 +1291,7 @@ pre .javascript .function {
   }
 }
 .sidebar-toggle:hover .toggle-line {
-  background: #4169e1;
+  background: #000080;
 }
 .post-toc {
   font-size: 0.875em;
@@ -1330,14 +1330,14 @@ pre .javascript .function {
   display: block;
 }
 .post-toc .nav .active > a {
-  border-bottom-color: #4169e1;
-  color: #4169e1;
+  border-bottom-color: #000080;
+  color: #000080;
 }
 .post-toc .nav .active-current > a {
-  color: #4169e1;
+  color: #000080;
 }
 .post-toc .nav .active-current > a:hover {
-  color: #4169e1;
+  color: #000080;
 }
 .site-state {
   display: flex;
@@ -1483,7 +1483,7 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
 }
 .back-to-top {
-  background: #191970;
+  background: #2f4f4f;
   bottom: -100px;
   box-sizing: border-box;
   color: #fff;
@@ -1500,7 +1500,7 @@ pre .javascript .function {
   display: none;
 }
 .back-to-top:hover {
-  color: #4169e1;
+  color: #000080;
 }
 .back-to-top.back-to-top-on {
   bottom: 30px;
@@ -1639,7 +1639,7 @@ pre .javascript .function {
   border-bottom-color: #666;
 }
 .posts-collapse .post-header:hover::before {
-  background: #191970;
+  background: #2f4f4f;
 }
 .posts-collapse .post-meta {
   display: inline;
@@ -1994,11 +1994,11 @@ pre .javascript .function {
   padding: 0;
 }
 .event-list hr {
-  background: #191970;
+  background: #2f4f4f;
   margin: 20px 0 45px 0;
 }
 .event-list hr::after {
-  background: #191970;
+  background: #2f4f4f;
   color: #fff;
   content: 'NOW';
   display: inline-block;
@@ -2007,7 +2007,7 @@ pre .javascript .function {
   text-align: right;
 }
 .event-list .event {
-  background: #191970;
+  background: #2f4f4f;
   margin: 20px 0;
   min-height: 40px;
   padding: 15px 0 15px 10px;
@@ -2192,7 +2192,7 @@ ul.breadcrumb li + li:last-child {
   cursor: pointer;
 }
 .search-popup .popup-btn-close:hover .fa {
-  color: #191970;
+  color: #2f4f4f;
 }
 .search-popup .search-header {
   background: #eee;
@@ -2329,7 +2329,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .site-brand-container {
-  background: #191970;
+  background: #2f4f4f;
 }
 @media (max-width: 991px) {
   .site-brand-container {
@@ -2428,14 +2428,14 @@ ul.breadcrumb li + li:last-child {
 .sub-menu .menu-item a:hover,
 .sub-menu .menu-item span.exturl:hover {
   background: transparent;
-  color: #4169e1;
+  color: #000080;
 }
 .sub-menu .menu-item-active a {
-  border-bottom-color: #4169e1;
-  color: #4169e1;
+  border-bottom-color: #000080;
+  color: #000080;
 }
 .sub-menu .menu-item-active a:hover {
-  border-bottom-color: #4169e1;
+  border-bottom-color: #000080;
 }
 .sidebar {
   background: var(--body-bg-color);
@@ -2479,19 +2479,19 @@ ul.breadcrumb li + li:last-child {
 }
 .sidebar-button a {
   border: 0;
-  color: #4169e1;
+  color: #000080;
   display: block;
 }
 .sidebar-button a:hover {
   background: none;
   border: 0;
-  color: #204ac8;
+  color: #006;
 }
 .sidebar-button a:hover .fa,
 .sidebar-button a:hover .fab,
 .sidebar-button a:hover .far,
 .sidebar-button a:hover .fas {
-  color: #204ac8;
+  color: #006;
 }
 .links-of-author {
   display: flex;

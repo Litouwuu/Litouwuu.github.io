@@ -36,28 +36,6 @@
       </tags>
   </entry>
   <entry>
-    <title>常用命令</title>
-    <url>/2020/05/26/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p><code>hexo s --debug</code>    </p>
-<ul>
-<li>预览博文效果</li>
-</ul>
-<p><code>hexo clean</code>    </p>
-<ul>
-<li><p>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)</p>
-</li>
-<li><p>在某些情况（尤其是更换主题后），如果发现对站点的更改无论如何也不生效，可能需要运行该命令</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>hexo 网站部署</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>初次部署遇到的问题</title>
     <url>/2020/05/26/%E5%88%9D%E6%AC%A1%E9%83%A8%E7%BD%B2%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h1 id="1-更新延迟问题"><a href="#1-更新延迟问题" class="headerlink" title="1. 更新延迟问题"></a>1. 更新延迟问题</h1><p>表现为在修改本地文件后，使用hexo clean&amp; hexo generate&amp; hexo deploy后，网站不会及时作出反应。</p>
@@ -88,8 +66,47 @@
 <li>当把scheme设置为Mist时，归档成功显示。可能为该scheme的问题。</li>
 </ul>
 <h2 id="2-2-侧边栏错误"><a href="#2-2-侧边栏错误" class="headerlink" title="2.2 侧边栏错误"></a>2.2 侧边栏错误</h2><p>如图所示</p>
-<p>![image-20200527210215738](C:\Users\Wu YuSen\AppData\Roaming\Typora\typora-user-images\image-20200527210215738.png)</p>
+<p><img src="D:%5Cblog%5Cwuyusen%5Csource%5Cpic%5Csearch_error.png" alt="img"></p>
+<p>执行hexo clean后直接解决</p>
 <h2 id="2-3-侧边栏中，分类点击后404"><a href="#2-3-侧边栏中，分类点击后404" class="headerlink" title="2.3 侧边栏中，分类点击后404"></a>2.3 侧边栏中，分类点击后404</h2><p>原因：主题config文件menu设置下的catogories莫名被自己不小心修改了</p>
+<h1 id="3-设置性问题"><a href="#3-设置性问题" class="headerlink" title="3. 设置性问题"></a>3. 设置性问题</h1><p>一些影响美观的、非错误性的问题</p>
+<h2 id="3-1-取消网站自带的文章目录编号"><a href="#3-1-取消网站自带的文章目录编号" class="headerlink" title="3.1 取消网站自带的文章目录编号"></a>3.1 取消网站自带的文章目录编号</h2><p>主题配置文件——toc——number改成false</p>
+<h2 id="3-2-字数统计和阅读时长功能"><a href="#3-2-字数统计和阅读时长功能" class="headerlink" title="3.2 字数统计和阅读时长功能"></a>3.2 字数统计和阅读时长功能</h2><ul>
+<li>安装插件</li>
+</ul>
+<figure class="highlight plain"><figcaption><span>install hexo-symbols-count-time --save```</span></figcaption><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">- 修改**站点**配置文件</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;symbols_count_time:</span><br><span class="line"> #文章内是否显示</span><br><span class="line">  symbols: true</span><br><span class="line">  time: true</span><br><span class="line"> #网页底部是否显示</span><br><span class="line">  total_symbols: true</span><br><span class="line">  total_time: true</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>修改<strong>主题</strong>配置文件</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">separated_meta: true</span><br><span class="line">#文章中的显示是否显示文字（本文字数|阅读时长） </span><br><span class="line">item_text_post: true</span><br><span class="line">#网页底部的显示是否显示文字（站点总字数|站点阅读时长） </span><br><span class="line">item_text_total: false</span><br><span class="line">#Average Word Length (chars count in word)</span><br><span class="line">awl: 4</span><br><span class="line">#Words Per Minute</span><br><span class="line">wpm: 275</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-3-Next主题颜色"><a href="#3-3-Next主题颜色" class="headerlink" title="3.3 Next主题颜色"></a>3.3 Next主题颜色</h2><p><a href="https://www.jianshu.com/p/ad0d867a8cb6" target="_blank" rel="noopener">详细教程</a>。主要是不喜欢目录中，选中部分变成了红色。</p>
+<p><code>hexo/themes/next/source/css/_variables/base.styl</code>找到Colors</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// colors for use across theme.</span></span><br><span class="line"><span class="comment">// --------------------------------------------------</span></span><br><span class="line">  $whitesmoke   = <span class="comment">#f5f5f5</span></span><br><span class="line">  $gainsboro    = <span class="comment">#eee  //这个是边栏头像外框的颜色，</span></span><br><span class="line">  $gray-lighter = <span class="comment">#ddd  //文章中插入图片边框颜色</span></span><br><span class="line">  $grey-light   = <span class="comment">#ccc  //文章之间分割线、下划线颜色</span></span><br><span class="line">  $grey         = <span class="comment">#bbb  //页面选中圆点颜色</span></span><br><span class="line">  $grey-dark    = <span class="comment">#999</span></span><br><span class="line">  $grey-dim     = <span class="comment">#666 //侧边栏目录字体颜色</span></span><br><span class="line">  $black-light  = <span class="comment">#555 //修改文章字体颜色</span></span><br><span class="line">  $black-dim    = <span class="comment">#333</span></span><br><span class="line">  $black-deep   = <span class="comment">#495a80  //修改主题的颜色，这里我已经改成老蓝色了。</span></span><br><span class="line">  $red          = <span class="comment">#ff2a2a</span></span><br><span class="line">  $blue-bright  = <span class="comment">#87daff</span></span><br><span class="line">  $blue         = <span class="comment">#0684bd</span></span><br><span class="line">  $blue-deep    = <span class="comment">#262a30</span></span><br><span class="line">  $orange       = <span class="comment">#F39D01 //浏览文章时，目录选中的颜色</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>hexo 网站部署</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常用命令</title>
+    <url>/2020/05/26/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p><code>hexo s --debug</code>    </p>
+<ul>
+<li>预览博文效果</li>
+</ul>
+<p><code>hexo clean</code>    </p>
+<ul>
+<li><p>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)</p>
+</li>
+<li><p>在某些情况（尤其是更换主题后），如果发现对站点的更改无论如何也不生效，可能需要运行该命令</p>
+</li>
+</ul>
 ]]></content>
       <categories>
         <category>hexo 网站部署</category>

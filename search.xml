@@ -327,7 +327,7 @@
 <li><p>放进生抽再炒15秒，关火！</p>
 </li>
 </ol>
-<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/26/%E9%9D%92%E6%A4%92%E7%82%92%E8%82%89/炒肉.jpg" style="zoom:30%;">
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/26/%E9%9D%92%E6%A4%92%E7%82%92%E8%82%89/炒肉.jpg" style="zoom:20%;">
 
 <p>其实还真的蛮好吃的，不过就是肉片有点太厚了，还好都熟了。</p>
 <p>真的稍微辣点的辣椒很下饭啊。</p>
@@ -384,7 +384,7 @@
 <li><p>加一勺盐，继续煮开五分钟</p>
 </li>
 </ol>
-<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/26/%E7%95%AA%E8%8C%84%E8%82%A5%E7%89%9B%E9%94%85/番茄肥牛锅.jpg" alt="img" style="zoom:33%;">
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/26/%E7%95%AA%E8%8C%84%E8%82%A5%E7%89%9B%E9%94%85/番茄肥牛锅.jpg" alt="img" style="zoom:20%;">
 
 <p>好像牛肉多煮一会也不会太老啊。</p>
 <p>整体都很好吃，可惜这一次做的时候姜味有点太重了，不能放太大的姜片进去了。</p>
@@ -542,6 +542,21 @@
       <tags>
         <tag>人身权益</tag>
         <tag>保险</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>图片不显示问题</title>
+    <url>/2020/06/27/%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>通过设置，在hexo new命令以后，会自动生成文章同名文件夹。</p>
+<p>在此情况下，使用typora自带的插入图片功能和<u><code>![](图片名.jpg)</code></u>的方式，可以在编辑的时候看到图片但网站中无法显示。可能的原因为更改缩放比例后，会自动改变图片的插入形式。</p>
+<p>解决方式：</p>
+<p>使用<code>![](同名文件夹/图片名.jpg)</code>的方法可以解决。且能够通过typora的快捷方法改变图片缩放比例。</p>
+]]></content>
+      <categories>
+        <category>hexo 网站部署</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
 </search>

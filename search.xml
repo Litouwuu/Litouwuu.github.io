@@ -1,47 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>初次部署遇到的问题</title>
-    <url>/2020/05/26/%E5%88%9D%E6%AC%A1%E9%83%A8%E7%BD%B2%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="1-更新延迟问题"><a href="#1-更新延迟问题" class="headerlink" title="1. 更新延迟问题"></a>1. 更新延迟问题</h1><p>表现为在修改本地文件后，使用hexo clean&amp; hexo generate&amp; hexo deploy后，网站不会及时作出反应。</p>
-<p>在更新多次或是<strong>过一段时间</strong>（原因存疑）后，一般可以得到解决。</p>
-<ul>
-<li>通过观察执行hexo d后的反馈，可以得到有用信息</li>
-</ul>
-<h2 id="1-1-更新文章内容延迟"><a href="#1-1-更新文章内容延迟" class="headerlink" title="1.1 更新文章内容延迟"></a>1.1 更新文章内容延迟</h2><ol>
-<li>修改md文件后，进行上传一套操作无法立即使网页内容更改</li>
-<li>删除test的md文件，在网站中仍有显示，不过打开后显示404 Not Found</li>
-</ol>
-<h2 id="1-2-更新主题延迟"><a href="#1-2-更新主题延迟" class="headerlink" title="1.2 更新主题延迟"></a>1.2 更新主题延迟</h2><ol>
-<li>在主题的更换、Scheme的选择上，总是出现问题</li>
-<li>主题config文件中的scheme，只能选择一种，否则会造成错误</li>
-</ol>
-<a id="more"></a>
-
-<h2 id="1-3-已解决"><a href="#1-3-已解决" class="headerlink" title="1.3 已解决"></a>1.3 已解决</h2><p>解决方法：hexo g&amp; hexo d后，执行hexo s –debug。在本地查看后顺利更新。</p>
-<h1 id="2-乱码错误"><a href="#2-乱码错误" class="headerlink" title="2. 乱码错误"></a>2. 乱码错误</h1><p>主要是中文出现问题，可能的解决方法：</p>
-<ol>
-<li>_config文件改变编码为utf-8</li>
-<li>查看git bash在hexo d后的信息提示，如：theme的config文件出现问题，#scheme的选项附近</li>
-<li>目录文件的config下language设置，应从theme的language文件下选择</li>
-</ol>
-<h2 id="2-1-Next主题主页“归档”乱码"><a href="#2-1-Next主题主页“归档”乱码" class="headerlink" title="2.1 Next主题主页“归档”乱码"></a>2.1 Next主题主页“归档”乱码</h2><ul>
-<li>乱码部分应显示中文，但文章里的中文未出现问题</li>
-<li>在scheme选择Pisces时出现，尝试多种方式没能解决</li>
-<li>当把scheme设置为Mist时，归档成功显示。可能为该scheme的问题。</li>
-</ul>
-<h2 id="2-2-侧边栏错误"><a href="#2-2-侧边栏错误" class="headerlink" title="2.2 侧边栏错误"></a>2.2 侧边栏错误</h2><p>添加搜索功能后一直显示在搜索中，无法执行搜索</p>
-<p>执行hexo clean后直接解决</p>
-<h2 id="2-3-侧边栏中，分类点击后404"><a href="#2-3-侧边栏中，分类点击后404" class="headerlink" title="2.3 侧边栏中，分类点击后404"></a>2.3 侧边栏中，分类点击后404</h2><p>原因：主题config文件menu设置下的catogories莫名被自己不小心修改了</p>
-]]></content>
-      <categories>
-        <category>hexo 网站部署</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>使用hexo部署blog</title>
     <url>/2020/05/27/%E4%BD%BF%E7%94%A8hexo%E9%83%A8%E7%BD%B2blog/</url>
     <content><![CDATA[<p>本文为刚开始建立网站时所写。由于边写边干，有明显的逻辑不清。主要目的在于记录和方便回看。</p>
@@ -97,19 +56,38 @@
       </tags>
   </entry>
   <entry>
-    <title>常用命令</title>
-    <url>/2020/05/26/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p><code>hexo s --debug</code>    </p>
+    <title>初次部署遇到的问题</title>
+    <url>/2020/05/26/%E5%88%9D%E6%AC%A1%E9%83%A8%E7%BD%B2%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="1-更新延迟问题"><a href="#1-更新延迟问题" class="headerlink" title="1. 更新延迟问题"></a>1. 更新延迟问题</h1><p>表现为在修改本地文件后，使用hexo clean&amp; hexo generate&amp; hexo deploy后，网站不会及时作出反应。</p>
+<p>在更新多次或是<strong>过一段时间</strong>（原因存疑）后，一般可以得到解决。</p>
 <ul>
-<li>预览博文效果</li>
+<li>通过观察执行hexo d后的反馈，可以得到有用信息</li>
 </ul>
-<p><code>hexo clean</code>    </p>
-<ul>
-<li><p>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)</p>
-</li>
-<li><p>在某些情况（尤其是更换主题后），如果发现对站点的更改无论如何也不生效，可能需要运行该命令</p>
-</li>
+<h2 id="1-1-更新文章内容延迟"><a href="#1-1-更新文章内容延迟" class="headerlink" title="1.1 更新文章内容延迟"></a>1.1 更新文章内容延迟</h2><ol>
+<li>修改md文件后，进行上传一套操作无法立即使网页内容更改</li>
+<li>删除test的md文件，在网站中仍有显示，不过打开后显示404 Not Found</li>
+</ol>
+<h2 id="1-2-更新主题延迟"><a href="#1-2-更新主题延迟" class="headerlink" title="1.2 更新主题延迟"></a>1.2 更新主题延迟</h2><ol>
+<li>在主题的更换、Scheme的选择上，总是出现问题</li>
+<li>主题config文件中的scheme，只能选择一种，否则会造成错误</li>
+</ol>
+<a id="more"></a>
+
+<h2 id="1-3-已解决"><a href="#1-3-已解决" class="headerlink" title="1.3 已解决"></a>1.3 已解决</h2><p>解决方法：hexo g&amp; hexo d后，执行hexo s –debug。在本地查看后顺利更新。</p>
+<h1 id="2-乱码错误"><a href="#2-乱码错误" class="headerlink" title="2. 乱码错误"></a>2. 乱码错误</h1><p>主要是中文出现问题，可能的解决方法：</p>
+<ol>
+<li>_config文件改变编码为utf-8</li>
+<li>查看git bash在hexo d后的信息提示，如：theme的config文件出现问题，#scheme的选项附近</li>
+<li>目录文件的config下language设置，应从theme的language文件下选择</li>
+</ol>
+<h2 id="2-1-Next主题主页“归档”乱码"><a href="#2-1-Next主题主页“归档”乱码" class="headerlink" title="2.1 Next主题主页“归档”乱码"></a>2.1 Next主题主页“归档”乱码</h2><ul>
+<li>乱码部分应显示中文，但文章里的中文未出现问题</li>
+<li>在scheme选择Pisces时出现，尝试多种方式没能解决</li>
+<li>当把scheme设置为Mist时，归档成功显示。可能为该scheme的问题。</li>
 </ul>
+<h2 id="2-2-侧边栏错误"><a href="#2-2-侧边栏错误" class="headerlink" title="2.2 侧边栏错误"></a>2.2 侧边栏错误</h2><p>添加搜索功能后一直显示在搜索中，无法执行搜索</p>
+<p>执行hexo clean后直接解决</p>
+<h2 id="2-3-侧边栏中，分类点击后404"><a href="#2-3-侧边栏中，分类点击后404" class="headerlink" title="2.3 侧边栏中，分类点击后404"></a>2.3 侧边栏中，分类点击后404</h2><p>原因：主题config文件menu设置下的catogories莫名被自己不小心修改了</p>
 ]]></content>
       <categories>
         <category>hexo 网站部署</category>
@@ -157,28 +135,25 @@
       </tags>
   </entry>
   <entry>
-    <title>实属炒蛋</title>
-    <url>/2020/06/02/%E5%AE%9E%E5%B1%9E%E7%82%92%E8%9B%8B/</url>
-    <content><![CDATA[<p>纯炒鸡蛋，无敌下饭</p>
-<h2 id="材料："><a href="#材料：" class="headerlink" title="材料："></a>材料：</h2><p>鸡蛋*5、淀粉、生抽、陈醋、耗油、白糖、辣椒粉</p>
-<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
-<li>五个鸡蛋打散，出现泡沫为止；</li>
-<li>调配料：淀粉一勺，生抽两勺，陈醋两勺，耗油一勺，白糖一勺，辣椒粉一勺，加入一小碗清水，搅拌均匀；</li>
-<li>起锅烧油！八成油温下鸡蛋，小火慢炒至微成型；</li>
-<li>加入调料，翻炒至收汤；<a id="more"></a></li>
-<li>结束</li>
-</ol>
-<img src="/2020/06/02/%E5%AE%9E%E5%B1%9E%E7%82%92%E8%9B%8B/炒鸡蛋.jpg" alt="炒鸡蛋" style="zoom:50%;">
-
-<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><p>第一次的配料完全按照上述方法，结果完全符合预料的好吃，只不过稍微有点咸，但可以被其它好的味道掩盖；</p>
-<p>第二次少加了一些生抽，导致味道明显变淡，不好吃。</p>
-<h2 id="展望"><a href="#展望" class="headerlink" title="展望"></a>展望</h2><p>基本没有上升空间了</p>
+    <title>常用命令</title>
+    <url>/2020/05/26/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p><code>hexo s --debug</code>    </p>
+<ul>
+<li>预览博文效果</li>
+</ul>
+<p><code>hexo clean</code>    </p>
+<ul>
+<li><p>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)</p>
+</li>
+<li><p>在某些情况（尤其是更换主题后），如果发现对站点的更改无论如何也不生效，可能需要运行该命令</p>
+</li>
+</ul>
 ]]></content>
       <categories>
-        <category>生活知识</category>
+        <category>hexo 网站部署</category>
       </categories>
       <tags>
-        <tag>做菜</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -217,6 +192,31 @@
 <p>与料汁有亲密接触的茄子属实可以。问题在于出现了失误，茄子的量过多，导致按教程调的料汁不能满足茄子的需求。</p>
 <p>尝试通过调两份料，出现的第二个问题是油未控制好，两次炒制都放了3勺半的油。最后的成品更像是一个油焖茄子，不够绿色健康。</p>
 <p>任重而道远啊，这次不算成功！</p>
+]]></content>
+      <categories>
+        <category>生活知识</category>
+      </categories>
+      <tags>
+        <tag>做菜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>实属炒蛋</title>
+    <url>/2020/06/02/%E5%AE%9E%E5%B1%9E%E7%82%92%E8%9B%8B/</url>
+    <content><![CDATA[<p>纯炒鸡蛋，无敌下饭</p>
+<h2 id="材料："><a href="#材料：" class="headerlink" title="材料："></a>材料：</h2><p>鸡蛋*5、淀粉、生抽、陈醋、耗油、白糖、辣椒粉</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
+<li>五个鸡蛋打散，出现泡沫为止；</li>
+<li>调配料：淀粉一勺，生抽两勺，陈醋两勺，耗油一勺，白糖一勺，辣椒粉一勺，加入一小碗清水，搅拌均匀；</li>
+<li>起锅烧油！八成油温下鸡蛋，小火慢炒至微成型；</li>
+<li>加入调料，翻炒至收汤；<a id="more"></a></li>
+<li>结束</li>
+</ol>
+<img src="/2020/06/02/%E5%AE%9E%E5%B1%9E%E7%82%92%E8%9B%8B/炒鸡蛋.jpg" alt="炒鸡蛋" style="zoom:50%;">
+
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><p>第一次的配料完全按照上述方法，结果完全符合预料的好吃，只不过稍微有点咸，但可以被其它好的味道掩盖；</p>
+<p>第二次少加了一些生抽，导致味道明显变淡，不好吃。</p>
+<h2 id="展望"><a href="#展望" class="headerlink" title="展望"></a>展望</h2><p>基本没有上升空间了</p>
 ]]></content>
       <categories>
         <category>生活知识</category>
@@ -291,6 +291,22 @@
       <tags>
         <tag>做菜</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>记网站的重新启用！</title>
+    <url>/2021/03/29/%E8%AE%B0%E7%BD%91%E7%AB%99%E7%9A%84%E9%87%8D%E6%96%B0%E5%90%AF%E7%94%A8%EF%BC%81/</url>
+    <content><![CDATA[<p>2021.3.29</p>
+<h2 id="关于回归"><a href="#关于回归" class="headerlink" title="关于回归"></a>关于回归</h2><p>本博客启用于2020年5月，本意是用于记录生活，甚至是保持一个日记的习惯；但其实更多来说，是为了打发疫情在家的无聊时间而已。</p>
+<p>来到了2021年将近4月，事情必然是远多于一年前，尤其是需要找寻工作机会。也正是因为这个原因，反倒希望在这段比较忙的时间里，通过博客的方式记录生活和学习的心得，算是对自己的监督。</p>
+<p>做一个自己的网站确实与写日记、记notion相比是低效率的，但是如果可以通过这种低效率的行为提高自身的学习工作效率，觉得还是大有裨益的。</p>
+<a id="more"></a>
+
+<p>至于之前的关于生活知识和做菜的内容，可能在闲余时间仍有更新。</p>
+<h2 id="更新规划"><a href="#更新规划" class="headerlink" title="更新规划"></a>更新规划</h2><p>自寒假期间起，断断续续开始学习供应链相关的知识，并希望可以从事相关的工作。</p>
+<p>进度亟待加紧，至今学习刘宝红《采购与供应链管理》仍停留在第一章，想借本博客督促自己提高学习进度。暂定于本周完成第一篇：供应链的全局观的学习，借清明节假期整理学习体会发表至博客（4.5之前）。</p>
+<p>从下周开始，每周末更新本周的学习计划，同时争取在劳动节假期完成本书的学习。</p>
+<p>学习过程中采用的形式为先阅读+notion回顾，再通过每周的blog整理，以期达到最好的学习效果。</p>
+]]></content>
   </entry>
   <entry>
     <title>社保知识（一）医疗保险</title>
@@ -383,20 +399,6 @@
         <tag>人身权益</tag>
         <tag>保险</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>记网站的重新启用！</title>
-    <url>/2021/03/29/%E8%AE%B0%E7%BD%91%E7%AB%99%E7%9A%84%E9%87%8D%E6%96%B0%E5%90%AF%E7%94%A8%EF%BC%81/</url>
-    <content><![CDATA[<p>2021.3.29</p>
-<h2 id="关于回归"><a href="#关于回归" class="headerlink" title="关于回归"></a>关于回归</h2><p>本博客启用于2020年5月，本意是用于记录生活，甚至是保持一个日记的习惯；但其实更多来说，是为了打发疫情在家的无聊时间而已。</p>
-<p>来到了2021年将近4月，事情必然是远多于一年前，尤其是需要找寻工作机会。也正是因为这个原因，反倒希望在这段比较忙的时间里，通过博客的方式记录生活和学习的心得，算是对自己的监督。</p>
-<p>做一个自己的网站确实与写日记、记notion相比是低效率的，但是如果可以通过这种低效率的行为提高自身的学习工作效率，觉得还是大有裨益的。</p>
-<p>至于之前的关于生活知识和做菜的内容，可能在闲余时间仍有更新。</p>
-<h2 id="更新规划"><a href="#更新规划" class="headerlink" title="更新规划"></a>更新规划</h2><p>自寒假期间起，断断续续开始学习供应链相关的知识，并希望可以从事相关的工作。</p>
-<p>进度亟待加紧，至今学习刘宝红《采购与供应链管理》仍停留在第一章，想借本博客督促自己提高学习进度。暂定于本周完成第一篇：供应链的全局观的学习，借清明节假期整理学习体会发表至博客（4.5之前）。</p>
-<p>从下周开始，每周末更新本周的学习计划，同时争取在劳动节假期完成本书的学习。</p>
-<p>学习过程中采用的形式为先阅读+notion回顾，再通过每周的blog整理，以期达到最好的学习效果。</p>
-]]></content>
   </entry>
   <entry>
     <title>青椒炒肉</title>

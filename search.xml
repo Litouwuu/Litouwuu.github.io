@@ -115,62 +115,6 @@
       </tags>
   </entry>
   <entry>
-    <title>初次部署遇到的问题</title>
-    <url>/2020/05/26/%E5%88%9D%E6%AC%A1%E9%83%A8%E7%BD%B2%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="1-更新延迟问题"><a href="#1-更新延迟问题" class="headerlink" title="1. 更新延迟问题"></a>1. 更新延迟问题</h1><p>表现为在修改本地文件后，使用hexo clean&amp; hexo generate&amp; hexo deploy后，网站不会及时作出反应。</p>
-<p>在更新多次或是<strong>过一段时间</strong>（原因存疑）后，一般可以得到解决。</p>
-<ul>
-<li>通过观察执行hexo d后的反馈，可以得到有用信息</li>
-</ul>
-<h2 id="1-1-更新文章内容延迟"><a href="#1-1-更新文章内容延迟" class="headerlink" title="1.1 更新文章内容延迟"></a>1.1 更新文章内容延迟</h2><ol>
-<li>修改md文件后，进行上传一套操作无法立即使网页内容更改</li>
-<li>删除test的md文件，在网站中仍有显示，不过打开后显示404 Not Found</li>
-</ol>
-<h2 id="1-2-更新主题延迟"><a href="#1-2-更新主题延迟" class="headerlink" title="1.2 更新主题延迟"></a>1.2 更新主题延迟</h2><ol>
-<li>在主题的更换、Scheme的选择上，总是出现问题</li>
-<li>主题config文件中的scheme，只能选择一种，否则会造成错误</li>
-</ol>
-<a id="more"></a>
-
-<h2 id="1-3-已解决"><a href="#1-3-已解决" class="headerlink" title="1.3 已解决"></a>1.3 已解决</h2><p>解决方法：hexo g&amp; hexo d后，执行hexo s –debug。在本地查看后顺利更新。</p>
-<h1 id="2-乱码错误"><a href="#2-乱码错误" class="headerlink" title="2. 乱码错误"></a>2. 乱码错误</h1><p>主要是中文出现问题，可能的解决方法：</p>
-<ol>
-<li>_config文件改变编码为utf-8</li>
-<li>查看git bash在hexo d后的信息提示，如：theme的config文件出现问题，#scheme的选项附近</li>
-<li>目录文件的config下language设置，应从theme的language文件下选择</li>
-</ol>
-<h2 id="2-1-Next主题主页“归档”乱码"><a href="#2-1-Next主题主页“归档”乱码" class="headerlink" title="2.1 Next主题主页“归档”乱码"></a>2.1 Next主题主页“归档”乱码</h2><ul>
-<li>乱码部分应显示中文，但文章里的中文未出现问题</li>
-<li>在scheme选择Pisces时出现，尝试多种方式没能解决</li>
-<li>当把scheme设置为Mist时，归档成功显示。可能为该scheme的问题。</li>
-</ul>
-<h2 id="2-2-侧边栏错误"><a href="#2-2-侧边栏错误" class="headerlink" title="2.2 侧边栏错误"></a>2.2 侧边栏错误</h2><p>添加搜索功能后一直显示在搜索中，无法执行搜索</p>
-<p>执行hexo clean后直接解决</p>
-<h2 id="2-3-侧边栏中，分类点击后404"><a href="#2-3-侧边栏中，分类点击后404" class="headerlink" title="2.3 侧边栏中，分类点击后404"></a>2.3 侧边栏中，分类点击后404</h2><p>原因：主题config文件menu设置下的catogories莫名被自己不小心修改了</p>
-]]></content>
-      <categories>
-        <category>hexo 网站部署</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>图片不显示问题</title>
-    <url>/2020/06/27/%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>通过设置，在hexo new命令以后，会自动生成文章同名文件夹。</p>
-<p>在此情况下，使用typora自带的插入图片功能和<u><code>![](图片名.jpg)</code></u>的方式，可以在编辑的时候看到图片但网站中无法显示。可能的原因为更改缩放比例后，会自动改变图片的插入形式。</p>
-<p>解决方式：</p>
-<p>使用<code>![](同名文件夹/图片名.jpg)</code>的方法可以解决。且能够通过typora的快捷方法改变图片缩放比例。</p>
-]]></content>
-      <categories>
-        <category>hexo 网站部署</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>使用hexo部署blog</title>
     <url>/2020/05/27/%E4%BD%BF%E7%94%A8hexo%E9%83%A8%E7%BD%B2blog/</url>
     <content><![CDATA[<p>本文为刚开始建立网站时所写。由于边写边干，有明显的逻辑不清。主要目的在于记录和方便回看。</p>
@@ -226,19 +170,38 @@
       </tags>
   </entry>
   <entry>
-    <title>常用命令</title>
-    <url>/2020/05/26/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p><code>hexo s --debug</code>    </p>
+    <title>初次部署遇到的问题</title>
+    <url>/2020/05/26/%E5%88%9D%E6%AC%A1%E9%83%A8%E7%BD%B2%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="1-更新延迟问题"><a href="#1-更新延迟问题" class="headerlink" title="1. 更新延迟问题"></a>1. 更新延迟问题</h1><p>表现为在修改本地文件后，使用hexo clean&amp; hexo generate&amp; hexo deploy后，网站不会及时作出反应。</p>
+<p>在更新多次或是<strong>过一段时间</strong>（原因存疑）后，一般可以得到解决。</p>
 <ul>
-<li>预览博文效果</li>
+<li>通过观察执行hexo d后的反馈，可以得到有用信息</li>
 </ul>
-<p><code>hexo clean</code>    </p>
-<ul>
-<li><p>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)</p>
-</li>
-<li><p>在某些情况（尤其是更换主题后），如果发现对站点的更改无论如何也不生效，可能需要运行该命令</p>
-</li>
+<h2 id="1-1-更新文章内容延迟"><a href="#1-1-更新文章内容延迟" class="headerlink" title="1.1 更新文章内容延迟"></a>1.1 更新文章内容延迟</h2><ol>
+<li>修改md文件后，进行上传一套操作无法立即使网页内容更改</li>
+<li>删除test的md文件，在网站中仍有显示，不过打开后显示404 Not Found</li>
+</ol>
+<h2 id="1-2-更新主题延迟"><a href="#1-2-更新主题延迟" class="headerlink" title="1.2 更新主题延迟"></a>1.2 更新主题延迟</h2><ol>
+<li>在主题的更换、Scheme的选择上，总是出现问题</li>
+<li>主题config文件中的scheme，只能选择一种，否则会造成错误</li>
+</ol>
+<a id="more"></a>
+
+<h2 id="1-3-已解决"><a href="#1-3-已解决" class="headerlink" title="1.3 已解决"></a>1.3 已解决</h2><p>解决方法：hexo g&amp; hexo d后，执行hexo s –debug。在本地查看后顺利更新。</p>
+<h1 id="2-乱码错误"><a href="#2-乱码错误" class="headerlink" title="2. 乱码错误"></a>2. 乱码错误</h1><p>主要是中文出现问题，可能的解决方法：</p>
+<ol>
+<li>_config文件改变编码为utf-8</li>
+<li>查看git bash在hexo d后的信息提示，如：theme的config文件出现问题，#scheme的选项附近</li>
+<li>目录文件的config下language设置，应从theme的language文件下选择</li>
+</ol>
+<h2 id="2-1-Next主题主页“归档”乱码"><a href="#2-1-Next主题主页“归档”乱码" class="headerlink" title="2.1 Next主题主页“归档”乱码"></a>2.1 Next主题主页“归档”乱码</h2><ul>
+<li>乱码部分应显示中文，但文章里的中文未出现问题</li>
+<li>在scheme选择Pisces时出现，尝试多种方式没能解决</li>
+<li>当把scheme设置为Mist时，归档成功显示。可能为该scheme的问题。</li>
 </ul>
+<h2 id="2-2-侧边栏错误"><a href="#2-2-侧边栏错误" class="headerlink" title="2.2 侧边栏错误"></a>2.2 侧边栏错误</h2><p>添加搜索功能后一直显示在搜索中，无法执行搜索</p>
+<p>执行hexo clean后直接解决</p>
+<h2 id="2-3-侧边栏中，分类点击后404"><a href="#2-3-侧边栏中，分类点击后404" class="headerlink" title="2.3 侧边栏中，分类点击后404"></a>2.3 侧边栏中，分类点击后404</h2><p>原因：主题config文件menu设置下的catogories莫名被自己不小心修改了</p>
 ]]></content>
       <categories>
         <category>hexo 网站部署</category>
@@ -286,6 +249,21 @@
       </tags>
   </entry>
   <entry>
+    <title>图片不显示问题</title>
+    <url>/2020/06/27/%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>通过设置，在hexo new命令以后，会自动生成文章同名文件夹。</p>
+<p>在此情况下，使用typora自带的插入图片功能和<u><code>![](图片名.jpg)</code></u>的方式，可以在编辑的时候看到图片但网站中无法显示。可能的原因为更改缩放比例后，会自动改变图片的插入形式。</p>
+<p>解决方式：</p>
+<p>使用<code>![](同名文件夹/图片名.jpg)</code>的方法可以解决。且能够通过typora的快捷方法改变图片缩放比例。</p>
+]]></content>
+      <categories>
+        <category>hexo 网站部署</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>实属炒蛋</title>
     <url>/2020/06/02/%E5%AE%9E%E5%B1%9E%E7%82%92%E8%9B%8B/</url>
     <content><![CDATA[<p>纯炒鸡蛋，无敌下饭</p>
@@ -302,6 +280,91 @@
 <h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><p>第一次的配料完全按照上述方法，结果完全符合预料的好吃，只不过稍微有点咸，但可以被其它好的味道掩盖；</p>
 <p>第二次少加了一些生抽，导致味道明显变淡，不好吃。</p>
 <h2 id="展望"><a href="#展望" class="headerlink" title="展望"></a>展望</h2><p>基本没有上升空间了</p>
+]]></content>
+      <categories>
+        <category>生活知识</category>
+      </categories>
+      <tags>
+        <tag>做菜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常用命令</title>
+    <url>/2020/05/26/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p><code>hexo s --debug</code>    </p>
+<ul>
+<li>预览博文效果</li>
+</ul>
+<p><code>hexo clean</code>    </p>
+<ul>
+<li><p>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)</p>
+</li>
+<li><p>在某些情况（尤其是更换主题后），如果发现对站点的更改无论如何也不生效，可能需要运行该命令</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>hexo 网站部署</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手撕茄子</title>
+    <url>/2020/06/05/%E6%89%8B%E6%92%95%E8%8C%84%E5%AD%90/</url>
+    <content><![CDATA[<p>撕起来很烫</p>
+<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>茄子、青椒、大蒜头、红辣椒、生抽、醋、白糖、盐、香油</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
+<li><p>茄子切块，蒸锅蒸15min，撕成条状摆盘</p>
+</li>
+<li><p>调料汁：两勺生抽，两勺陈醋，一勺白糖，少量盐，香油适量</p>
+<a id="more"></a>
+</li>
+<li><p>油锅下入蒜末、小米辣、青椒，翻炒后倒入料汁10s</p>
+</li>
+<li><p>料汁淋上茄子</p>
+</li>
+</ol>
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/05/%E6%89%8B%E6%92%95%E8%8C%84%E5%AD%90/茄子.jpg" alt="img" style="zoom:33%;">
+
+<p>与料汁有亲密接触的茄子属实可以。问题在于出现了失误，茄子的量过多，导致按教程调的料汁不能满足茄子的需求。</p>
+<p>尝试通过调两份料，出现的第二个问题是油未控制好，两次炒制都放了3勺半的油。最后的成品更像是一个油焖茄子，不够绿色健康。</p>
+<p>任重而道远啊，这次不算成功！</p>
+]]></content>
+      <categories>
+        <category>生活知识</category>
+      </categories>
+      <tags>
+        <tag>做菜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>番茄炒蛋</title>
+    <url>/2020/06/26/%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B/</url>
+    <content><![CDATA[<p>番茄炒鸡蛋！</p>
+<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>番茄、土鸡蛋、小葱、糖、盐、番茄酱、料酒</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
+<li><p>一个番茄开水烫，去皮切块。香葱切沫</p>
+</li>
+<li><p>打四个鸡蛋，加一滴料酒，一点点的盐和更少的糖</p>
+</li>
+<li><p>烧热油，倒入鸡蛋液</p>
+<a id="more"></a>
+</li>
+<li><p>鸡蛋炒成半凝固的大块，盛出放碗里</p>
+</li>
+<li><p>锅里加入一点点油，烧热放进番茄。挤压番茄，放入糖、盐，更快出汁。加番茄酱</p>
+</li>
+<li><p>炒出浓稠汤汁后加入香葱末</p>
+</li>
+<li><p>倒入鸡蛋，<em>可以加一些青椒</em>。翻拌均匀</p>
+</li>
+<li><p>快速结束，防止鸡蛋变老</p>
+</li>
+</ol>
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><p>平淡无奇，就是普通的炒鸡蛋而已啊</p>
+<p>甚至不配拥有一个单独的照片</p>
 ]]></content>
       <categories>
         <category>生活知识</category>
@@ -344,31 +407,56 @@
       </tags>
   </entry>
   <entry>
-    <title>番茄炒蛋</title>
-    <url>/2020/06/26/%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B/</url>
-    <content><![CDATA[<p>番茄炒鸡蛋！</p>
-<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>番茄、土鸡蛋、小葱、糖、盐、番茄酱、料酒</p>
-<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
-<li><p>一个番茄开水烫，去皮切块。香葱切沫</p>
-</li>
-<li><p>打四个鸡蛋，加一滴料酒，一点点的盐和更少的糖</p>
-</li>
-<li><p>烧热油，倒入鸡蛋液</p>
+    <title>记网站的重新启用！</title>
+    <url>/2021/03/29/%E8%AE%B0%E7%BD%91%E7%AB%99%E7%9A%84%E9%87%8D%E6%96%B0%E5%90%AF%E7%94%A8%EF%BC%81/</url>
+    <content><![CDATA[<p>2021.3.29</p>
+<h2 id="关于回归"><a href="#关于回归" class="headerlink" title="关于回归"></a>关于回归</h2><p>本博客启用于2020年5月，本意是用于记录生活，甚至是保持一个日记的习惯；但其实更多来说，是为了打发疫情在家的无聊时间而已。</p>
+<p>来到了2021年将近4月，事情必然是远多于一年前，尤其是需要找寻工作机会。也正是因为这个原因，反倒希望在这段比较忙的时间里，通过博客的方式记录生活和学习的心得，算是对自己的监督。</p>
+<p>做一个自己的网站确实与写日记、记notion相比是低效率的，但是如果可以通过这种低效率的行为提高自身的学习工作效率，觉得还是大有裨益的。</p>
 <a id="more"></a>
+
+<p>至于之前的关于生活知识和做菜的内容，可能在闲余时间仍有更新。</p>
+<h2 id="更新规划"><a href="#更新规划" class="headerlink" title="更新规划"></a>更新规划</h2><p>自寒假期间起，断断续续开始学习供应链相关的知识，并希望可以从事相关的工作。</p>
+<p>进度亟待加紧，至今学习刘宝红《采购与供应链管理》仍停留在第一章，想借本博客督促自己提高学习进度。暂定于本周完成第一篇：供应链的全局观的学习，借清明节假期整理学习体会发表至博客（4.5之前）。</p>
+<p>从下周开始，每周末更新本周的学习计划，同时争取在劳动节假期完成本书的学习。</p>
+<p>学习过程中采用的形式为先阅读+notion回顾，再通过每周的blog整理，以期达到最好的学习效果。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>青椒炒肉</title>
+    <url>/2020/06/26/%E9%9D%92%E6%A4%92%E7%82%92%E8%82%89/</url>
+    <content><![CDATA[<p>青椒炒肉！吃的爽啊</p>
+<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>青椒、猪肉、老抽、生抽、料酒、盐、大蒜</p>
+<ul>
+<li><p>猪肉最好是带点肥肉的前腿/后腿肉。要求瘦的地方绝对的瘦。</p>
 </li>
-<li><p>鸡蛋炒成半凝固的大块，盛出放碗里</p>
+<li><p>其中，青椒的优先级如图所示：</p>
+<a id="more"></a>
+
 </li>
-<li><p>锅里加入一点点油，烧热放进番茄。挤压番茄，放入糖、盐，更快出汁。加番茄酱</p>
+</ul>
+<img src="https://pic3.zhimg.com/80/v2-4893d4b93229ac460cffb9a305995880_720w.jpg" alt="img" style="zoom:50%;">
+
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
+<li><p>处理猪肉。肥瘦肉分离，瘦肉切片后加入料酒、老抽、生抽，腌一把游戏的时间。</p>
 </li>
-<li><p>炒出浓稠汤汁后加入香葱末</p>
+<li><p>辣椒和蒜头切片。其中辣椒掏籽+滚刀。</p>
 </li>
-<li><p>倒入鸡蛋，<em>可以加一些青椒</em>。翻拌均匀</p>
+<li><p>干煸辣椒。不放油，中火加入辣椒片，放点盐使劲炒，直到表面起皱，出现虎皮。</p>
 </li>
-<li><p>快速结束，防止鸡蛋变老</p>
+<li><p>锅里放一点油，放进肥肉片煸油直到变得焦焦干干。</p>
+</li>
+<li><p>放进瘦肉片大火翻炒，变色后放进大蒜片，<em>可以再加点豆豉</em>。</p>
+</li>
+<li><p>辣椒倒进去一起继续翻炒，用铲子擂肉片和辣椒片。持续40s</p>
+</li>
+<li><p>放进生抽再炒15秒，关火！</p>
 </li>
 </ol>
-<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><p>平淡无奇，就是普通的炒鸡蛋而已啊</p>
-<p>甚至不配拥有一个单独的照片</p>
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/26/%E9%9D%92%E6%A4%92%E7%82%92%E8%82%89/炒肉.jpg" style="zoom:20%;">
+
+<p>其实还真的蛮好吃的，不过就是肉片有点太厚了，还好都熟了。</p>
+<p>真的稍微辣点的辣椒很下饭啊。</p>
 ]]></content>
       <categories>
         <category>生活知识</category>
@@ -467,94 +555,6 @@
       <tags>
         <tag>人身权益</tag>
         <tag>保险</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>青椒炒肉</title>
-    <url>/2020/06/26/%E9%9D%92%E6%A4%92%E7%82%92%E8%82%89/</url>
-    <content><![CDATA[<p>青椒炒肉！吃的爽啊</p>
-<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>青椒、猪肉、老抽、生抽、料酒、盐、大蒜</p>
-<ul>
-<li><p>猪肉最好是带点肥肉的前腿/后腿肉。要求瘦的地方绝对的瘦。</p>
-</li>
-<li><p>其中，青椒的优先级如图所示：</p>
-<a id="more"></a>
-
-</li>
-</ul>
-<img src="https://pic3.zhimg.com/80/v2-4893d4b93229ac460cffb9a305995880_720w.jpg" alt="img" style="zoom:50%;">
-
-<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
-<li><p>处理猪肉。肥瘦肉分离，瘦肉切片后加入料酒、老抽、生抽，腌一把游戏的时间。</p>
-</li>
-<li><p>辣椒和蒜头切片。其中辣椒掏籽+滚刀。</p>
-</li>
-<li><p>干煸辣椒。不放油，中火加入辣椒片，放点盐使劲炒，直到表面起皱，出现虎皮。</p>
-</li>
-<li><p>锅里放一点油，放进肥肉片煸油直到变得焦焦干干。</p>
-</li>
-<li><p>放进瘦肉片大火翻炒，变色后放进大蒜片，<em>可以再加点豆豉</em>。</p>
-</li>
-<li><p>辣椒倒进去一起继续翻炒，用铲子擂肉片和辣椒片。持续40s</p>
-</li>
-<li><p>放进生抽再炒15秒，关火！</p>
-</li>
-</ol>
-<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/26/%E9%9D%92%E6%A4%92%E7%82%92%E8%82%89/炒肉.jpg" style="zoom:20%;">
-
-<p>其实还真的蛮好吃的，不过就是肉片有点太厚了，还好都熟了。</p>
-<p>真的稍微辣点的辣椒很下饭啊。</p>
-]]></content>
-      <categories>
-        <category>生活知识</category>
-      </categories>
-      <tags>
-        <tag>做菜</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记网站的重新启用！</title>
-    <url>/2021/03/29/%E8%AE%B0%E7%BD%91%E7%AB%99%E7%9A%84%E9%87%8D%E6%96%B0%E5%90%AF%E7%94%A8%EF%BC%81/</url>
-    <content><![CDATA[<p>2021.3.29</p>
-<h2 id="关于回归"><a href="#关于回归" class="headerlink" title="关于回归"></a>关于回归</h2><p>本博客启用于2020年5月，本意是用于记录生活，甚至是保持一个日记的习惯；但其实更多来说，是为了打发疫情在家的无聊时间而已。</p>
-<p>来到了2021年将近4月，事情必然是远多于一年前，尤其是需要找寻工作机会。也正是因为这个原因，反倒希望在这段比较忙的时间里，通过博客的方式记录生活和学习的心得，算是对自己的监督。</p>
-<p>做一个自己的网站确实与写日记、记notion相比是低效率的，但是如果可以通过这种低效率的行为提高自身的学习工作效率，觉得还是大有裨益的。</p>
-<a id="more"></a>
-
-<p>至于之前的关于生活知识和做菜的内容，可能在闲余时间仍有更新。</p>
-<h2 id="更新规划"><a href="#更新规划" class="headerlink" title="更新规划"></a>更新规划</h2><p>自寒假期间起，断断续续开始学习供应链相关的知识，并希望可以从事相关的工作。</p>
-<p>进度亟待加紧，至今学习刘宝红《采购与供应链管理》仍停留在第一章，想借本博客督促自己提高学习进度。暂定于本周完成第一篇：供应链的全局观的学习，借清明节假期整理学习体会发表至博客（4.5之前）。</p>
-<p>从下周开始，每周末更新本周的学习计划，同时争取在劳动节假期完成本书的学习。</p>
-<p>学习过程中采用的形式为先阅读+notion回顾，再通过每周的blog整理，以期达到最好的学习效果。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>手撕茄子</title>
-    <url>/2020/06/05/%E6%89%8B%E6%92%95%E8%8C%84%E5%AD%90/</url>
-    <content><![CDATA[<p>撕起来很烫</p>
-<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>茄子、青椒、大蒜头、红辣椒、生抽、醋、白糖、盐、香油</p>
-<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
-<li><p>茄子切块，蒸锅蒸15min，撕成条状摆盘</p>
-</li>
-<li><p>调料汁：两勺生抽，两勺陈醋，一勺白糖，少量盐，香油适量</p>
-<a id="more"></a>
-</li>
-<li><p>油锅下入蒜末、小米辣、青椒，翻炒后倒入料汁10s</p>
-</li>
-<li><p>料汁淋上茄子</p>
-</li>
-</ol>
-<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/05/%E6%89%8B%E6%92%95%E8%8C%84%E5%AD%90/茄子.jpg" alt="img" style="zoom:33%;">
-
-<p>与料汁有亲密接触的茄子属实可以。问题在于出现了失误，茄子的量过多，导致按教程调的料汁不能满足茄子的需求。</p>
-<p>尝试通过调两份料，出现的第二个问题是油未控制好，两次炒制都放了3勺半的油。最后的成品更像是一个油焖茄子，不够绿色健康。</p>
-<p>任重而道远啊，这次不算成功！</p>
-]]></content>
-      <categories>
-        <category>生活知识</category>
-      </categories>
-      <tags>
-        <tag>做菜</tag>
       </tags>
   </entry>
 </search>

@@ -115,58 +115,88 @@
       </tags>
   </entry>
   <entry>
-    <title>使用hexo部署blog</title>
-    <url>/2020/05/27/%E4%BD%BF%E7%94%A8hexo%E9%83%A8%E7%BD%B2blog/</url>
-    <content><![CDATA[<p>本文为刚开始建立网站时所写。由于边写边干，有明显的逻辑不清。主要目的在于记录和方便回看。</p>
-<h1 id="1-从git安装到部署hexo"><a href="#1-从git安装到部署hexo" class="headerlink" title="1. 从git安装到部署hexo"></a>1. 从git安装到部署hexo</h1><p>根据知乎<a href="https://www.zhihu.com/people/fang-ze-hua-56" target="_blank" rel="noopener">直上云霄</a>的回答：<a href="https://zhuanlan.zhihu.com/p/44213627" target="_blank" rel="noopener">hexo超完整的搭建教程，让你拥有一个专属个人博客</a>进行部署。参考了customize之前的内容，未设置个人域名。<code>（该文章中还有关于git分支进行多终端工作的部分，在更换电脑后会用到）</code></p>
-<p>搭建时主要内容包括：</p>
-<ul>
-<li>安装git、node.js、hexo</li>
-<li>GitHub创建个人仓库</li>
-<li>生成SSH添加至GitHub</li>
-<li>将hexo部署至GitHub</li>
-<li>设置个人域名</li>
-<li>发布文章</li>
-</ul>
-<p>该回答还有关于hexo的基本配置，更换主题，实现多终端工作和添加各种功能，包括搜索的SEO，阅读量统计，访问量统计和评论系统等的内容，以后仍需参考。</p>
+    <title>2：供应链管理_1</title>
+    <url>/2021/04/12/2%EF%BC%9A%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86-1/</url>
+    <content><![CDATA[<p>2021.4.12 第二章：供应商管理</p>
+<h1 id="内容概述"><a href="#内容概述" class="headerlink" title="内容概述"></a>内容概述</h1><p>​    本周学习内容从宏观角度介绍了为什么要系统地选择和管理供应商、选择和管理供应商的五大流程、在供应商管理中的三大误区。强调了良好的管理能力应包括组织、系统、流程三个方面，分别起到各自的作用。</p>
+<p>​    供应商战略的一大标志是合格供应商清单的建立。</p>
 <a id="more"></a>
 
-<h1 id="2-主题设置等"><a href="#2-主题设置等" class="headerlink" title="2. 主题设置等"></a>2. 主题设置等</h1><p>参考<a href="https://www.zhihu.com/people/wurun" target="_blank" rel="noopener">吴润</a>的回答：<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">GitHub+ Hexo搭建个人网站详细教程</a>，同样也很详细。</p>
-<h1 id="3-参考hexo官方文件"><a href="#3-参考hexo官方文件" class="headerlink" title="3. 参考hexo官方文件"></a>3. 参考hexo官方文件</h1><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">点击这里</a>。内容包括安装、使用方法、命令、主题等。</p>
-<h1 id="4-添加分类及标签"><a href="#4-添加分类及标签" class="headerlink" title="4. 添加分类及标签"></a>4. 添加分类及标签</h1><p>是针对主题的config设置，参考回答：<a href="https://www.jianshu.com/p/e17711e44e00" target="_blank" rel="noopener">Hexo使用攻略-添加分类及标签</a>。</p>
-<h1 id="5-更多个性化设置"><a href="#5-更多个性化设置" class="headerlink" title="5. 更多个性化设置"></a>5. 更多个性化设置</h1><p>主要参考文章<a href="http://www.360doc.com/content/19/0418/20/22888630_829741117.shtml" target="_blank" rel="noopener">hexo的Next主题详细配置</a>。</p>
-<p>使用到的内容包括：</p>
+<h2 id="1-为什么要管理供应商"><a href="#1-为什么要管理供应商" class="headerlink" title="1. 为什么要管理供应商"></a>1. 为什么要管理供应商</h2><p>供应链管理的目的在于提高质量和速度，给客户提供最大化价值，降低成本。</p>
+<p>制造业中，70%的成本来自于供应商——供应商创造70%的价值</p>
+<p>供应商选择与管理的5大流程：</p>
 <ol>
-<li>头像设置 Sidebar Avatar</li>
-<li>添加搜索功能</li>
-<li>添加阅读全文按钮</li>
-<li>设置文章字体的颜色、大小、居中（使用html语法）</li>
+<li>供应商分类</li>
+<li>供应商评估</li>
+<li>供应商选择</li>
+<li>供应商绩效考核</li>
+<li>供应商集成</li>
 </ol>
-<h2 id="5-1-取消网站自带的文章目录编号"><a href="#5-1-取消网站自带的文章目录编号" class="headerlink" title="5.1 取消网站自带的文章目录编号"></a>5.1 取消网站自带的文章目录编号</h2><p>主题配置文件——toc——number改成false</p>
-<h2 id="5-2-字数统计和阅读时长功能"><a href="#5-2-字数统计和阅读时长功能" class="headerlink" title="5.2 字数统计和阅读时长功能"></a>5.2 字数统计和阅读时长功能</h2><ul>
-<li>安装插件</li>
-</ul>
-<p><code>npm install hexo-symbols-count-time --save</code></p>
+<p>供应链面对的形势：</p>
 <ul>
-<li>修改<strong>站点</strong>配置文件</li>
+<li>全球化和技术发展导致的供应链跨度、长度增加，可见度和可控性下降</li>
+<li>成熟行业的供应商经过整合，议价能力上升，管理难度上升</li>
+<li>供应链中断的风险和危害增大</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#文章内是否显示</span><br><span class="line"> symbols: true</span><br><span class="line"> time: true</span><br><span class="line">#网页底部是否显示</span><br><span class="line"> total_symbols: true</span><br><span class="line"> total_time: true</span><br></pre></td></tr></table></figure>
-
+<p>战略寻源：一个健康的小孩出生；供应商绩效考核：通过考试保持现有能力；供应商集成：通过教育使取得更好成绩</p>
+<h2 id="2-供应商选择与管理中的三大误区"><a href="#2-供应商选择与管理中的三大误区" class="headerlink" title="2. 供应商选择与管理中的三大误区"></a>2. 供应商选择与管理中的三大误区</h2><ol>
+<li>多权分立，供应商成公共草地，<strong>无人从组织上作为一个整体对供应商负责</strong></li>
+</ol>
+<p>除了采购、技术和质量外，把三大职能之下继续分割职能，目的在于：避免权力集中带来的贪腐问题</p>
+<p>后果：公司内部无法形成合力，各自为自己的利益考虑，面对强势供应商时被逐个击破，议价能力丧失；供应商的利益得不到保障，遇到问题时各部门踢皮球，只能找靠山，系统性地造成贪腐问题</p>
+<p>原因：没有健全的流程和系统，只能通过组织层面弥补；没有客观量化的指标，无法从结果管控行为，只能从过程管控</p>
+<p>对策：设置专门的职位，对内从组织上协调选择和管理供应商的职能，对外代表公司维护与供应商关系；通过完善的流程和系统限制权力</p>
+<p>战略寻源的核心：供应商评估，评估内容包括生产控制体系、质量管理体系、物料管理体系等</p>
+<ol start="2">
+<li>只有订单层面的流程，<strong>没有在供应商选择和管理上的系统的流程**</strong></li>
+</ol>
+<p>是否存在一叠文件，实习生学习以后就可以了解公司如何选择供应商？</p>
+<p>缺少健全的流程：要么选不好要么管不好供应商</p>
+<p>最简单的流程标准化：召集优秀员工，取共同的好的做法</p>
+<ol start="3">
+<li>只有料号、项目层面的优化，<strong>没有整个供应商层面的优化</strong></li>
+</ol>
+<p>对应系统：限于局部利益、短期利益；忽略全局利益和长期利益。体现在<strong>供应商的口子收不起来</strong></p>
 <ul>
-<li>修改<strong>主题</strong>配置文件</li>
+<li><p>实现小优化、小降本的同时，导致供应商的泛滥</p>
+<p>一是管理资源被分摊，难以管好供应商；二是不能成为某一个供应商的大客户，话语权不足</p>
+<p>对策：对供应商收口子，只保留3个。集中采购额获得更大话语权和议价权</p>
+</li>
+<li><p>没有供应商战略。考虑长期和全局利益</p>
+<p>避免设计人员架空采购，严格的遵守合格供应商清单。杜绝/减少灵活性的现象（缺少计划性）</p>
+<p>没有计划性，采购的早期介入也更不现实</p>
+<p>设计、质量、采购应形成跨职能小组。</p>
+</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">separated_meta: true</span><br><span class="line">#文章中的显示是否显示文字（本文字数|阅读时长） </span><br><span class="line">item_text_post: true</span><br><span class="line">#网页底部的显示是否显示文字（站点总字数|站点阅读时长） </span><br><span class="line">item_text_total: false</span><br><span class="line">#Average Word Length (chars count in word)</span><br><span class="line">awl: 4</span><br><span class="line">#Words Per Minute</span><br><span class="line">wpm: 275</span><br></pre></td></tr></table></figure>
-
-<h2 id="5-3-Next主题颜色"><a href="#5-3-Next主题颜色" class="headerlink" title="5.3 Next主题颜色"></a>5.3 Next主题颜色</h2><p><a href="https://www.jianshu.com/p/ad0d867a8cb6" target="_blank" rel="noopener">详细教程</a>。主要是不喜欢目录中，选中部分变成了红色。</p>
-<p><code>hexo/themes/next/source/css/_variables/base.styl</code>找到Colors</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// colors for use across theme.</span></span><br><span class="line"><span class="comment">// --------------------------------------------------</span></span><br><span class="line">  $whitesmoke   = <span class="comment">#f5f5f5</span></span><br><span class="line">  $gainsboro    = <span class="comment">#eee  //这个是边栏头像外框的颜色，</span></span><br><span class="line">  $gray-lighter = <span class="comment">#ddd  //文章中插入图片边框颜色</span></span><br><span class="line">  $grey-light   = <span class="comment">#ccc  //文章之间分割线、下划线颜色</span></span><br><span class="line">  $grey         = <span class="comment">#bbb  //页面选中圆点颜色</span></span><br><span class="line">  $grey-dark    = <span class="comment">#999</span></span><br><span class="line">  $grey-dim     = <span class="comment">#666 //侧边栏目录字体颜色</span></span><br><span class="line">  $black-light  = <span class="comment">#555 //修改文章字体颜色</span></span><br><span class="line">  $black-dim    = <span class="comment">#333</span></span><br><span class="line">  $black-deep   = <span class="comment">#495a80  //修改主题的颜色，这里我已经改成老蓝色了。</span></span><br><span class="line">  $red          = <span class="comment">#ff2a2a</span></span><br><span class="line">  $blue-bright  = <span class="comment">#87daff</span></span><br><span class="line">  $blue         = <span class="comment">#0684bd</span></span><br><span class="line">  $blue-deep    = <span class="comment">#262a30</span></span><br><span class="line">  $orange       = <span class="comment">#F39D01 //浏览文章时，目录选中的颜色</span></span><br></pre></td></tr></table></figure>
-
+<h2 id="3-供应商的选择与管理：组织、系统与流程"><a href="#3-供应商的选择与管理：组织、系统与流程" class="headerlink" title="3.供应商的选择与管理：组织、系统与流程"></a>3.供应商的选择与管理：组织、系统与流程</h2><p>评价供应商选择与管理的能力：</p>
+<ol>
+<li>职责分明、结构清晰的组织</li>
+<li>闭环的、标准的流程</li>
+<li>统一、跨职能的信息系统</li>
+</ol>
+<p>组织：协调设计、质量、采购的利益</p>
+<p>系统：信息系统在供应链选择与管理中，一是作为工具、二是提供反馈、三是固化流程</p>
+<p>流程：分类、评估、选择、绩效考核、集成</p>
+<ul>
+<li><p>供应商分类：筛选过程、内部沟通使用、区别对待、摸清市场</p>
+</li>
+<li><p>供应商评估：包括对生产控制、质量管理、物料管理体系和历史绩效</p>
+</li>
+<li><p>供应商选择：可选择多个供应商的原因在于，可满足不同的需求（潜在的）</p>
+<p>前三点构成战略寻源</p>
+</li>
+<li><p>供应商绩效考核：维持供应商的水平</p>
+</li>
+<li><p>供应商集成：优化设计、流程对接、工艺优化等</p>
+</li>
+</ul>
 ]]></content>
       <categories>
-        <category>hexo 网站部署</category>
+        <category>学习</category>
+        <category>供应链</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>《采购与供应链管理》</tag>
       </tags>
   </entry>
   <entry>
@@ -340,37 +370,58 @@
       </tags>
   </entry>
   <entry>
-    <title>番茄炒蛋</title>
-    <url>/2020/06/26/%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B/</url>
-    <content><![CDATA[<p>番茄炒鸡蛋！</p>
-<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>番茄、土鸡蛋、小葱、糖、盐、番茄酱、料酒</p>
-<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
-<li><p>一个番茄开水烫，去皮切块。香葱切沫</p>
-</li>
-<li><p>打四个鸡蛋，加一滴料酒，一点点的盐和更少的糖</p>
-</li>
-<li><p>烧热油，倒入鸡蛋液</p>
+    <title>使用hexo部署blog</title>
+    <url>/2020/05/27/%E4%BD%BF%E7%94%A8hexo%E9%83%A8%E7%BD%B2blog/</url>
+    <content><![CDATA[<p>本文为刚开始建立网站时所写。由于边写边干，有明显的逻辑不清。主要目的在于记录和方便回看。</p>
+<h1 id="1-从git安装到部署hexo"><a href="#1-从git安装到部署hexo" class="headerlink" title="1. 从git安装到部署hexo"></a>1. 从git安装到部署hexo</h1><p>根据知乎<a href="https://www.zhihu.com/people/fang-ze-hua-56" target="_blank" rel="noopener">直上云霄</a>的回答：<a href="https://zhuanlan.zhihu.com/p/44213627" target="_blank" rel="noopener">hexo超完整的搭建教程，让你拥有一个专属个人博客</a>进行部署。参考了customize之前的内容，未设置个人域名。<code>（该文章中还有关于git分支进行多终端工作的部分，在更换电脑后会用到）</code></p>
+<p>搭建时主要内容包括：</p>
+<ul>
+<li>安装git、node.js、hexo</li>
+<li>GitHub创建个人仓库</li>
+<li>生成SSH添加至GitHub</li>
+<li>将hexo部署至GitHub</li>
+<li>设置个人域名</li>
+<li>发布文章</li>
+</ul>
+<p>该回答还有关于hexo的基本配置，更换主题，实现多终端工作和添加各种功能，包括搜索的SEO，阅读量统计，访问量统计和评论系统等的内容，以后仍需参考。</p>
 <a id="more"></a>
-</li>
-<li><p>鸡蛋炒成半凝固的大块，盛出放碗里</p>
-</li>
-<li><p>锅里加入一点点油，烧热放进番茄。挤压番茄，放入糖、盐，更快出汁。加番茄酱</p>
-</li>
-<li><p>炒出浓稠汤汁后加入香葱末</p>
-</li>
-<li><p>倒入鸡蛋，<em>可以加一些青椒</em>。翻拌均匀</p>
-</li>
-<li><p>快速结束，防止鸡蛋变老</p>
-</li>
+
+<h1 id="2-主题设置等"><a href="#2-主题设置等" class="headerlink" title="2. 主题设置等"></a>2. 主题设置等</h1><p>参考<a href="https://www.zhihu.com/people/wurun" target="_blank" rel="noopener">吴润</a>的回答：<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">GitHub+ Hexo搭建个人网站详细教程</a>，同样也很详细。</p>
+<h1 id="3-参考hexo官方文件"><a href="#3-参考hexo官方文件" class="headerlink" title="3. 参考hexo官方文件"></a>3. 参考hexo官方文件</h1><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">点击这里</a>。内容包括安装、使用方法、命令、主题等。</p>
+<h1 id="4-添加分类及标签"><a href="#4-添加分类及标签" class="headerlink" title="4. 添加分类及标签"></a>4. 添加分类及标签</h1><p>是针对主题的config设置，参考回答：<a href="https://www.jianshu.com/p/e17711e44e00" target="_blank" rel="noopener">Hexo使用攻略-添加分类及标签</a>。</p>
+<h1 id="5-更多个性化设置"><a href="#5-更多个性化设置" class="headerlink" title="5. 更多个性化设置"></a>5. 更多个性化设置</h1><p>主要参考文章<a href="http://www.360doc.com/content/19/0418/20/22888630_829741117.shtml" target="_blank" rel="noopener">hexo的Next主题详细配置</a>。</p>
+<p>使用到的内容包括：</p>
+<ol>
+<li>头像设置 Sidebar Avatar</li>
+<li>添加搜索功能</li>
+<li>添加阅读全文按钮</li>
+<li>设置文章字体的颜色、大小、居中（使用html语法）</li>
 </ol>
-<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><p>平淡无奇，就是普通的炒鸡蛋而已啊</p>
-<p>甚至不配拥有一个单独的照片</p>
+<h2 id="5-1-取消网站自带的文章目录编号"><a href="#5-1-取消网站自带的文章目录编号" class="headerlink" title="5.1 取消网站自带的文章目录编号"></a>5.1 取消网站自带的文章目录编号</h2><p>主题配置文件——toc——number改成false</p>
+<h2 id="5-2-字数统计和阅读时长功能"><a href="#5-2-字数统计和阅读时长功能" class="headerlink" title="5.2 字数统计和阅读时长功能"></a>5.2 字数统计和阅读时长功能</h2><ul>
+<li>安装插件</li>
+</ul>
+<p><code>npm install hexo-symbols-count-time --save</code></p>
+<ul>
+<li>修改<strong>站点</strong>配置文件</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#文章内是否显示</span><br><span class="line"> symbols: true</span><br><span class="line"> time: true</span><br><span class="line">#网页底部是否显示</span><br><span class="line"> total_symbols: true</span><br><span class="line"> total_time: true</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>修改<strong>主题</strong>配置文件</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">separated_meta: true</span><br><span class="line">#文章中的显示是否显示文字（本文字数|阅读时长） </span><br><span class="line">item_text_post: true</span><br><span class="line">#网页底部的显示是否显示文字（站点总字数|站点阅读时长） </span><br><span class="line">item_text_total: false</span><br><span class="line">#Average Word Length (chars count in word)</span><br><span class="line">awl: 4</span><br><span class="line">#Words Per Minute</span><br><span class="line">wpm: 275</span><br></pre></td></tr></table></figure>
+
+<h2 id="5-3-Next主题颜色"><a href="#5-3-Next主题颜色" class="headerlink" title="5.3 Next主题颜色"></a>5.3 Next主题颜色</h2><p><a href="https://www.jianshu.com/p/ad0d867a8cb6" target="_blank" rel="noopener">详细教程</a>。主要是不喜欢目录中，选中部分变成了红色。</p>
+<p><code>hexo/themes/next/source/css/_variables/base.styl</code>找到Colors</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// colors for use across theme.</span></span><br><span class="line"><span class="comment">// --------------------------------------------------</span></span><br><span class="line">  $whitesmoke   = <span class="comment">#f5f5f5</span></span><br><span class="line">  $gainsboro    = <span class="comment">#eee  //这个是边栏头像外框的颜色，</span></span><br><span class="line">  $gray-lighter = <span class="comment">#ddd  //文章中插入图片边框颜色</span></span><br><span class="line">  $grey-light   = <span class="comment">#ccc  //文章之间分割线、下划线颜色</span></span><br><span class="line">  $grey         = <span class="comment">#bbb  //页面选中圆点颜色</span></span><br><span class="line">  $grey-dark    = <span class="comment">#999</span></span><br><span class="line">  $grey-dim     = <span class="comment">#666 //侧边栏目录字体颜色</span></span><br><span class="line">  $black-light  = <span class="comment">#555 //修改文章字体颜色</span></span><br><span class="line">  $black-dim    = <span class="comment">#333</span></span><br><span class="line">  $black-deep   = <span class="comment">#495a80  //修改主题的颜色，这里我已经改成老蓝色了。</span></span><br><span class="line">  $red          = <span class="comment">#ff2a2a</span></span><br><span class="line">  $blue-bright  = <span class="comment">#87daff</span></span><br><span class="line">  $blue         = <span class="comment">#0684bd</span></span><br><span class="line">  $blue-deep    = <span class="comment">#262a30</span></span><br><span class="line">  $orange       = <span class="comment">#F39D01 //浏览文章时，目录选中的颜色</span></span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
-        <category>生活知识</category>
+        <category>hexo 网站部署</category>
       </categories>
       <tags>
-        <tag>做菜</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -407,56 +458,31 @@
       </tags>
   </entry>
   <entry>
-    <title>记网站的重新启用！</title>
-    <url>/2021/03/29/%E8%AE%B0%E7%BD%91%E7%AB%99%E7%9A%84%E9%87%8D%E6%96%B0%E5%90%AF%E7%94%A8%EF%BC%81/</url>
-    <content><![CDATA[<p>2021.3.29</p>
-<h2 id="关于回归"><a href="#关于回归" class="headerlink" title="关于回归"></a>关于回归</h2><p>本博客启用于2020年5月，本意是用于记录生活，甚至是保持一个日记的习惯；但其实更多来说，是为了打发疫情在家的无聊时间而已。</p>
-<p>来到了2021年将近4月，事情必然是远多于一年前，尤其是需要找寻工作机会。也正是因为这个原因，反倒希望在这段比较忙的时间里，通过博客的方式记录生活和学习的心得，算是对自己的监督。</p>
-<p>做一个自己的网站确实与写日记、记notion相比是低效率的，但是如果可以通过这种低效率的行为提高自身的学习工作效率，觉得还是大有裨益的。</p>
-<a id="more"></a>
-
-<p>至于之前的关于生活知识和做菜的内容，可能在闲余时间仍有更新。</p>
-<h2 id="更新规划"><a href="#更新规划" class="headerlink" title="更新规划"></a>更新规划</h2><p>自寒假期间起，断断续续开始学习供应链相关的知识，并希望可以从事相关的工作。</p>
-<p>进度亟待加紧，至今学习刘宝红《采购与供应链管理》仍停留在第一章，想借本博客督促自己提高学习进度。暂定于本周完成第一篇：供应链的全局观的学习，借清明节假期整理学习体会发表至博客（4.5之前）。</p>
-<p>从下周开始，每周末更新本周的学习计划，同时争取在劳动节假期完成本书的学习。</p>
-<p>学习过程中采用的形式为先阅读+notion回顾，再通过每周的blog整理，以期达到最好的学习效果。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>青椒炒肉</title>
-    <url>/2020/06/26/%E9%9D%92%E6%A4%92%E7%82%92%E8%82%89/</url>
-    <content><![CDATA[<p>青椒炒肉！吃的爽啊</p>
-<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>青椒、猪肉、老抽、生抽、料酒、盐、大蒜</p>
-<ul>
-<li><p>猪肉最好是带点肥肉的前腿/后腿肉。要求瘦的地方绝对的瘦。</p>
-</li>
-<li><p>其中，青椒的优先级如图所示：</p>
-<a id="more"></a>
-
-</li>
-</ul>
-<img src="https://pic3.zhimg.com/80/v2-4893d4b93229ac460cffb9a305995880_720w.jpg" alt="img" style="zoom:50%;">
-
+    <title>番茄炒蛋</title>
+    <url>/2020/06/26/%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B/</url>
+    <content><![CDATA[<p>番茄炒鸡蛋！</p>
+<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>番茄、土鸡蛋、小葱、糖、盐、番茄酱、料酒</p>
 <h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
-<li><p>处理猪肉。肥瘦肉分离，瘦肉切片后加入料酒、老抽、生抽，腌一把游戏的时间。</p>
+<li><p>一个番茄开水烫，去皮切块。香葱切沫</p>
 </li>
-<li><p>辣椒和蒜头切片。其中辣椒掏籽+滚刀。</p>
+<li><p>打四个鸡蛋，加一滴料酒，一点点的盐和更少的糖</p>
 </li>
-<li><p>干煸辣椒。不放油，中火加入辣椒片，放点盐使劲炒，直到表面起皱，出现虎皮。</p>
+<li><p>烧热油，倒入鸡蛋液</p>
+<a id="more"></a>
 </li>
-<li><p>锅里放一点油，放进肥肉片煸油直到变得焦焦干干。</p>
+<li><p>鸡蛋炒成半凝固的大块，盛出放碗里</p>
 </li>
-<li><p>放进瘦肉片大火翻炒，变色后放进大蒜片，<em>可以再加点豆豉</em>。</p>
+<li><p>锅里加入一点点油，烧热放进番茄。挤压番茄，放入糖、盐，更快出汁。加番茄酱</p>
 </li>
-<li><p>辣椒倒进去一起继续翻炒，用铲子擂肉片和辣椒片。持续40s</p>
+<li><p>炒出浓稠汤汁后加入香葱末</p>
 </li>
-<li><p>放进生抽再炒15秒，关火！</p>
+<li><p>倒入鸡蛋，<em>可以加一些青椒</em>。翻拌均匀</p>
+</li>
+<li><p>快速结束，防止鸡蛋变老</p>
 </li>
 </ol>
-<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/26/%E9%9D%92%E6%A4%92%E7%82%92%E8%82%89/炒肉.jpg" style="zoom:20%;">
-
-<p>其实还真的蛮好吃的，不过就是肉片有点太厚了，还好都熟了。</p>
-<p>真的稍微辣点的辣椒很下饭啊。</p>
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><p>平淡无奇，就是普通的炒鸡蛋而已啊</p>
+<p>甚至不配拥有一个单独的照片</p>
 ]]></content>
       <categories>
         <category>生活知识</category>
@@ -558,88 +584,62 @@
       </tags>
   </entry>
   <entry>
-    <title>2：供应链管理_1</title>
-    <url>/2021/04/12/2%EF%BC%9A%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86-1/</url>
-    <content><![CDATA[<p>2021.4.12 第二章：供应商管理</p>
-<h1 id="内容概述"><a href="#内容概述" class="headerlink" title="内容概述"></a>内容概述</h1><p>​    本周学习内容从宏观角度介绍了为什么要系统地选择和管理供应商、选择和管理供应商的五大流程、在供应商管理中的三大误区。强调了良好的管理能力应包括组织、系统、流程三个方面，分别起到各自的作用。</p>
-<p>​    供应商战略的一大标志是合格供应商清单的建立。</p>
+    <title>记网站的重新启用！</title>
+    <url>/2021/03/29/%E8%AE%B0%E7%BD%91%E7%AB%99%E7%9A%84%E9%87%8D%E6%96%B0%E5%90%AF%E7%94%A8%EF%BC%81/</url>
+    <content><![CDATA[<p>2021.3.29</p>
+<h2 id="关于回归"><a href="#关于回归" class="headerlink" title="关于回归"></a>关于回归</h2><p>本博客启用于2020年5月，本意是用于记录生活，甚至是保持一个日记的习惯；但其实更多来说，是为了打发疫情在家的无聊时间而已。</p>
+<p>来到了2021年将近4月，事情必然是远多于一年前，尤其是需要找寻工作机会。也正是因为这个原因，反倒希望在这段比较忙的时间里，通过博客的方式记录生活和学习的心得，算是对自己的监督。</p>
+<p>做一个自己的网站确实与写日记、记notion相比是低效率的，但是如果可以通过这种低效率的行为提高自身的学习工作效率，觉得还是大有裨益的。</p>
 <a id="more"></a>
 
-<h2 id="1-为什么要管理供应商"><a href="#1-为什么要管理供应商" class="headerlink" title="1. 为什么要管理供应商"></a>1. 为什么要管理供应商</h2><p>供应链管理的目的在于提高质量和速度，给客户提供最大化价值，降低成本。</p>
-<p>制造业中，70%的成本来自于供应商——供应商创造70%的价值</p>
-<p>供应商选择与管理的5大流程：</p>
-<ol>
-<li>供应商分类</li>
-<li>供应商评估</li>
-<li>供应商选择</li>
-<li>供应商绩效考核</li>
-<li>供应商集成</li>
-</ol>
-<p>供应链面对的形势：</p>
+<p>至于之前的关于生活知识和做菜的内容，可能在闲余时间仍有更新。</p>
+<h2 id="更新规划"><a href="#更新规划" class="headerlink" title="更新规划"></a>更新规划</h2><p>自寒假期间起，断断续续开始学习供应链相关的知识，并希望可以从事相关的工作。</p>
+<p>进度亟待加紧，至今学习刘宝红《采购与供应链管理》仍停留在第一章，想借本博客督促自己提高学习进度。暂定于本周完成第一篇：供应链的全局观的学习，借清明节假期整理学习体会发表至博客（4.5之前）。</p>
+<p>从下周开始，每周末更新本周的学习计划，同时争取在劳动节假期完成本书的学习。</p>
+<p>学习过程中采用的形式为先阅读+notion回顾，再通过每周的blog整理，以期达到最好的学习效果。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>青椒炒肉</title>
+    <url>/2020/06/26/%E9%9D%92%E6%A4%92%E7%82%92%E8%82%89/</url>
+    <content><![CDATA[<p>青椒炒肉！吃的爽啊</p>
+<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>青椒、猪肉、老抽、生抽、料酒、盐、大蒜</p>
 <ul>
-<li>全球化和技术发展导致的供应链跨度、长度增加，可见度和可控性下降</li>
-<li>成熟行业的供应商经过整合，议价能力上升，管理难度上升</li>
-<li>供应链中断的风险和危害增大</li>
-</ul>
-<p>战略寻源：一个健康的小孩出生；供应商绩效考核：通过考试保持现有能力；供应商集成：通过教育使取得更好成绩</p>
-<h2 id="2-供应商选择与管理中的三大误区"><a href="#2-供应商选择与管理中的三大误区" class="headerlink" title="2. 供应商选择与管理中的三大误区"></a>2. 供应商选择与管理中的三大误区</h2><ol>
-<li>多权分立，供应商成公共草地，<strong>无人从组织上作为一个整体对供应商负责</strong></li>
-</ol>
-<p>除了采购、技术和质量外，把三大职能之下继续分割职能，目的在于：避免权力集中带来的贪腐问题</p>
-<p>后果：公司内部无法形成合力，各自为自己的利益考虑，面对强势供应商时被逐个击破，议价能力丧失；供应商的利益得不到保障，遇到问题时各部门踢皮球，只能找靠山，系统性地造成贪腐问题</p>
-<p>原因：没有健全的流程和系统，只能通过组织层面弥补；没有客观量化的指标，无法从结果管控行为，只能从过程管控</p>
-<p>对策：设置专门的职位，对内从组织上协调选择和管理供应商的职能，对外代表公司维护与供应商关系；通过完善的流程和系统限制权力</p>
-<p>战略寻源的核心：供应商评估，评估内容包括生产控制体系、质量管理体系、物料管理体系等</p>
-<ol start="2">
-<li>只有订单层面的流程，<strong>没有在供应商选择和管理上的系统的流程**</strong></li>
-</ol>
-<p>是否存在一叠文件，实习生学习以后就可以了解公司如何选择供应商？</p>
-<p>缺少健全的流程：要么选不好要么管不好供应商</p>
-<p>最简单的流程标准化：召集优秀员工，取共同的好的做法</p>
-<ol start="3">
-<li>只有料号、项目层面的优化，<strong>没有整个供应商层面的优化</strong></li>
-</ol>
-<p>对应系统：限于局部利益、短期利益；忽略全局利益和长期利益。体现在<strong>供应商的口子收不起来</strong></p>
-<ul>
-<li><p>实现小优化、小降本的同时，导致供应商的泛滥</p>
-<p>一是管理资源被分摊，难以管好供应商；二是不能成为某一个供应商的大客户，话语权不足</p>
-<p>对策：对供应商收口子，只保留3个。集中采购额获得更大话语权和议价权</p>
+<li><p>猪肉最好是带点肥肉的前腿/后腿肉。要求瘦的地方绝对的瘦。</p>
 </li>
-<li><p>没有供应商战略。考虑长期和全局利益</p>
-<p>避免设计人员架空采购，严格的遵守合格供应商清单。杜绝/减少灵活性的现象（缺少计划性）</p>
-<p>没有计划性，采购的早期介入也更不现实</p>
-<p>设计、质量、采购应形成跨职能小组。</p>
+<li><p>其中，青椒的优先级如图所示：</p>
+<a id="more"></a>
+
 </li>
 </ul>
-<h2 id="3-供应商的选择与管理：组织、系统与流程"><a href="#3-供应商的选择与管理：组织、系统与流程" class="headerlink" title="3.供应商的选择与管理：组织、系统与流程"></a>3.供应商的选择与管理：组织、系统与流程</h2><p>评价供应商选择与管理的能力：</p>
-<ol>
-<li>职责分明、结构清晰的组织</li>
-<li>闭环的、标准的流程</li>
-<li>统一、跨职能的信息系统</li>
+<img src="https://pic3.zhimg.com/80/v2-4893d4b93229ac460cffb9a305995880_720w.jpg" alt="img" style="zoom:50%;">
+
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
+<li><p>处理猪肉。肥瘦肉分离，瘦肉切片后加入料酒、老抽、生抽，腌一把游戏的时间。</p>
+</li>
+<li><p>辣椒和蒜头切片。其中辣椒掏籽+滚刀。</p>
+</li>
+<li><p>干煸辣椒。不放油，中火加入辣椒片，放点盐使劲炒，直到表面起皱，出现虎皮。</p>
+</li>
+<li><p>锅里放一点油，放进肥肉片煸油直到变得焦焦干干。</p>
+</li>
+<li><p>放进瘦肉片大火翻炒，变色后放进大蒜片，<em>可以再加点豆豉</em>。</p>
+</li>
+<li><p>辣椒倒进去一起继续翻炒，用铲子擂肉片和辣椒片。持续40s</p>
+</li>
+<li><p>放进生抽再炒15秒，关火！</p>
+</li>
 </ol>
-<p>组织：协调设计、质量、采购的利益</p>
-<p>系统：信息系统在供应链选择与管理中，一是作为工具、二是提供反馈、三是固化流程</p>
-<p>流程：分类、评估、选择、绩效考核、集成</p>
-<ul>
-<li><p>供应商分类：筛选过程、内部沟通使用、区别对待、摸清市场</p>
-</li>
-<li><p>供应商评估：包括对生产控制、质量管理、物料管理体系和历史绩效</p>
-</li>
-<li><p>供应商选择：可选择多个供应商的原因在于，可满足不同的需求（潜在的）</p>
-<p>前三点构成战略寻源</p>
-</li>
-<li><p>供应商绩效考核：维持供应商的水平</p>
-</li>
-<li><p>供应商集成：优化设计、流程对接、工艺优化等</p>
-</li>
-</ul>
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/26/%E9%9D%92%E6%A4%92%E7%82%92%E8%82%89/炒肉.jpg" style="zoom:20%;">
+
+<p>其实还真的蛮好吃的，不过就是肉片有点太厚了，还好都熟了。</p>
+<p>真的稍微辣点的辣椒很下饭啊。</p>
 ]]></content>
       <categories>
-        <category>学习</category>
-        <category>供应链</category>
+        <category>生活知识</category>
       </categories>
       <tags>
-        <tag>《采购与供应链管理》</tag>
+        <tag>做菜</tag>
       </tags>
   </entry>
 </search>

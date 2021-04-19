@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="2021.4.6 第一章：供应链的全局观 内容概述​    作为本书的第一章，首先引入了供应链的基本概念。作为一个复杂的体系，关于什么是供应链有着不同角度的定义。作者首先从横向角度解释了什么是供应链（由计划控制下的三大职能组成），并以此进一步阐释：在这个角度下，为什么各个职能之间不协作？引入了强相关横向指标的概念；在从纵向角度切入供应链的概念时，首先抛出问题：为何供应链集成不起来？引入了关系和连接">
+<meta property="og:type" content="article">
+<meta property="og:title" content="1：供应链的全局观">
+<meta property="og:url" content="http://yoursite.com/2021/04/06/1%EF%BC%9A%E4%BE%9B%E5%BA%94%E9%93%BE%E7%9A%84%E5%85%A8%E5%B1%80%E8%A7%82/index.html">
+<meta property="og:site_name" content="方鸿渐的书桌">
+<meta property="og:description" content="2021.4.6 第一章：供应链的全局观 内容概述​    作为本书的第一章，首先引入了供应链的基本概念。作为一个复杂的体系，关于什么是供应链有着不同角度的定义。作者首先从横向角度解释了什么是供应链（由计划控制下的三大职能组成），并以此进一步阐释：在这个角度下，为什么各个职能之间不协作？引入了强相关横向指标的概念；在从纵向角度切入供应链的概念时，首先抛出问题：为何供应链集成不起来？引入了关系和连接">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-04-06T03:27:51.000Z">
+<meta property="article:modified_time" content="2021-04-12T13:19:10.198Z">
+<meta property="article:author" content="Wu yusen">
+<meta property="article:tag" content="《采购与供应链管理》">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://yoursite.com/2021/04/06/1%EF%BC%9A%E4%BE%9B%E5%BA%94%E9%93%BE%E7%9A%84%E5%85%A8%E5%B1%80%E8%A7%82/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>1：供应链的全局观 | 方鸿渐的书桌</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">方鸿渐的书桌</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">学习，永远滴神！</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2021/04/06/1%EF%BC%9A%E4%BE%9B%E5%BA%94%E9%93%BE%E7%9A%84%E5%85%A8%E5%B1%80%E8%A7%82/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="Wu yusen">
+      <meta itemprop="description" content="给👴冲!">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="方鸿渐的书桌">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          1：供应链的全局观
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-04-06 11:27:51" itemprop="dateCreated datePublished" datetime="2021-04-06T11:27:51+08:00">2021-04-06</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-04-12 21:19:10" itemprop="dateModified" datetime="2021-04-12T21:19:10+08:00">2021-04-12</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">学习</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AD%A6%E4%B9%A0/%E4%BE%9B%E5%BA%94%E9%93%BE/" itemprop="url" rel="index"><span itemprop="name">供应链</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.8k</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p><strong>2021.4.6 第一章：供应链的全局观</strong></p>
+<h1 id="内容概述"><a href="#内容概述" class="headerlink" title="内容概述"></a>内容概述</h1><p>​    作为本书的第一章，首先引入了供应链的基本概念。作为一个复杂的体系，关于什么是供应链有着不同角度的定义。作者首先从横向角度解释了什么是供应链（由计划控制下的三大职能组成），并以此进一步阐释：在这个角度下，为什么各个职能之间不协作？引入了强相关横向指标的概念；在从纵向角度切入供应链的概念时，首先抛出问题：为何供应链集成不起来？引入了<strong>关系和连接</strong>问题，在此之后系统解释了供应链的纵向定义（三流的集成）。</p>
+<p>​    接着是关于供应链战略、供应链设计部分。供应链战略需要与产品战略相匹配；供应链设计是对三个流的优化。</p>
+<p>​    引入复杂度的概念，关于如何降低复杂度、复杂度的起因、控制复杂度。</p>
+<p>​    牛鞭效应、降低库存、最后是供应链降本三台阶。</p>
+<a id="more"></a>
+
+<h2 id="1-横向定义中的供应链"><a href="#1-横向定义中的供应链" class="headerlink" title="1. 横向定义中的供应链"></a>1. 横向定义中的供应链</h2><p>供应链管理的三大组成部分：供应管理、运营管理、物流管理，三大职能服从计划管理，计划+三大职能构成供应链。</p>
+<ul>
+<li>供应管理<br>对外管理供应商，对内管理需求，使供应商成为公司的有机延申<br>职责：分析开支、确认需求、评估供应商、选择供应商、签订协议、管理供应商绩效</li>
+<li>运营管理<br>利用各方资源使产品增值的过程，关键点在于复杂的事情做千百遍不走样（品控）</li>
+<li>物流管理<br>管理产品、服务和信息的双向流动</li>
+</ul>
+<p>即供应链的高效运行需要三大职能的协作，为何不能做到高效的协作？</p>
+<p><strong>缺少强相关的指标</strong></p>
+<ul>
+<li>需要有相应的强制性惩罚措施</li>
+<li>需要建立科学的<strong>可量化的指标</strong></li>
+</ul>
+<p>除此之外还可以通过<strong>组织方式加强协作</strong>：促进协作、有明确的追责体系</p>
+<p>当组织越集中，内部的问题越不容易暴露；集中程度低时，互相之间可起到监督作用。</p>
+<h2 id="2-纵向角度中的供应链"><a href="#2-纵向角度中的供应链" class="headerlink" title="2. 纵向角度中的供应链"></a>2. 纵向角度中的供应链</h2><p>供应链是从供应商的供应商到客户的客户的过程，供应链管理是对贯穿其中的产品流、资金流、信息流的集成管理。目的在于为客户提供最大化价值，将成本最小化。</p>
+<p>为什么做不到集成？即无法围绕客户的订单，集成生产、采购、供应、生产等环节，给客户一个可靠、大概率兑现的承诺</p>
+<p>根本问题在于<strong>信息系统</strong></p>
+<p>供应链集成需要解决的问题：关系问题和连接问题</p>
+<ul>
+<li>关系问题：愿不愿意做，需要在绩效考核上做文章</li>
+<li>连接问题：建立流畅的基本流程；有能对接的基本信息系统</li>
+</ul>
+<p>关于物流管理和产品流，互相有交集，并非包含关系：</p>
+<ul>
+<li>产品流还包括生产工艺、生产过程等增值过程</li>
+<li>物流管理还包括信息流的概念</li>
+</ul>
+<h2 id="3-供应链战略"><a href="#3-供应链战略" class="headerlink" title="3. 供应链战略"></a>3. 供应链战略</h2><p>供应链与产品战略匹配即为合适的供应链战略。</p>
+<p>功能型产品配经济型供应链：走<strong>成本优势路线</strong></p>
+<p>创新型产品配响应型供应链：走<strong>差异化路线</strong></p>
+<p>创新型产品最终总会变为功能型，而功能型产品也会做出创新性改变，对于处理产品战略和供应链战略的差异：</p>
+<ol>
+<li>差异化供应链，成立快速相应的寻源部门</li>
+<li>分散经营，针对不同的产品线建立子供应链部门</li>
+<li>关停、转让任务</li>
+</ol>
+<h2 id="4-供应链设计"><a href="#4-供应链设计" class="headerlink" title="4. 供应链设计"></a>4. 供应链设计</h2><p>围绕产品和设计，优化产品流、资金流、信息流，降低供应链成本，提高响应速度</p>
+<p>最核心的是产品流的优化：</p>
+<p>如生产的模块化（外包），首先是产品流的改变，实际上也是设计的模块化。</p>
+<p>很多问题难以找到两全的决策：是否为新产品开发部门设置专门的供应链？如何整合现有的供应链？</p>
+<h2 id="5-复杂度控制"><a href="#5-复杂度控制" class="headerlink" title="5. 复杂度控制"></a>5. 复杂度控制</h2><p>复杂度是供应链的大敌，在很多行业，是供应链的管理能力而非技术限制着企业的发展和竞争力</p>
+<p>产品设计可分为集成式设计、模块化设计。</p>
+<p>复杂度产生原因：</p>
+<ol>
+<li>客户的独特需求<br>先识别：什么是客户真正想要的？真正的方案是帮助客户理解需求找到最优的解决方案，而非一味的满足需求<br>是否有更好的解决方法？</li>
+<li>创新<br>在有限制的条件下创新，考虑创新带来的变化能否在供应链的承受能力之内？无约束的创新只是无谓的多元化，带来成本的上升<br>以预防为主，在科技企业中，一旦技术不再是最最强力的驱动力，创新带来的复杂度是灾难性的</li>
+<li>纳入过多的供应商<br>非良性竞争、降低了规模效益</li>
+</ol>
+<p>如何控制复杂度？</p>
+<ul>
+<li>推动设计和生产的标准化、模块化、通用化</li>
+<li>供应商分层分级，把复杂的产品化整为零分配给供应商完成</li>
+<li>整合供应商</li>
+</ul>
+<p>所有的复杂度都对应着成本的增加，通过五大模块收口子控制复杂度：</p>
+<p>销售管理客户需求，标准化需求，给客户更好的方案；设计的模块化、标准化、通用化；计划对有重复性的半成品、原料方便做好控制；采购管理供应商；生产标准化工艺</p>
+<p>供应链中的大并不代表伟大。</p>
+<h2 id="6-控制牛鞭效应"><a href="#6-控制牛鞭效应" class="headerlink" title="6. 控制牛鞭效应"></a>6. 控制牛鞭效应</h2><p>牛鞭效应：从零售商到供应商，需求的波动逐级增大。是影响供应链的一个根本性问题</p>
+<p>面对需求变化，传递到供应商时的反应有增加产能或库存，都会引起牛鞭效应</p>
+<p>根本原因在于时间差和信息差。</p>
+<p>牛鞭效应的诱因：</p>
+<ol>
+<li>多重预测：安全库存、富裕系数等，被逐级放大</li>
+<li>批量生产与购买（过量）</li>
+<li>促销活动与价格浮动</li>
+<li>理性预期（由于不能完成供货要求，客户多下订单）</li>
+</ol>
+<p>牛鞭效应的应对：跨行分摊风险、外包（转移至供应商，影响在供应商处被稀释）、<strong>信息共享</strong></p>
+<h2 id="7-库存管理"><a href="#7-库存管理" class="headerlink" title="7. 库存管理"></a>7. 库存管理</h2><p>库存问题的诱因存在于各个方面：需求预测不准、生产执行力不强、产品质量出问题、供应来源不稳定、设计杂乱变化快等。即各个环节出现问题都会反映在库存上。</p>
+<p>降低库存的运动（设定指标、绩效考核等）只会系统性地增加需求变动，使库存增加。</p>
+<p>库存分类：周转库存、安全库存、多余库存</p>
+<ul>
+<li>周转库存<br>必要的库存量，生产、运输过程中的在制、在途库存，由周转周期驱动<br>采购角度：降低供应商的采购提前期（建立过程库存等）<br>生产角度：降低生产、调试周期（生产过程标准化、模块化设计）<br>信息流角度：优化流程，缩短信息周转周期</li>
+<li>安全库存<br>更有效准确的需求预测，降低不可控因素和不确定因素：信息不对称、压货等</li>
+<li>管理需求</li>
+</ul>
+<h2 id="8-降本三台阶"><a href="#8-降本三台阶" class="headerlink" title="8. 降本三台阶"></a>8. 降本三台阶</h2><p>谈判降本、优化流程、优化设计</p>
+<ol>
+<li>谈判降本的本质是利润的转移，将成本压向供应商，最终会通过其它方式得到负反馈（供应商关系、合作、质量）</li>
+</ol>
+<p>常用手段：集中采购、整合需求、整合供应商等</p>
+<p>一味压低价格，诱导供应商恶性竞争最后会导致质量低、无法建立稳定的供应商关系等</p>
+<ol start="2">
+<li>优化流程</li>
+</ol>
+<p>降低生产成本和交易成本。生产成本通过精益生产等方式降低，有效但程度有限</p>
+<p>交易成本不增加价值却必不可少，除了必要的流程之外（可通过电子商务手段降低），商务关系也是交易成本的高的原因：稳定的供应商关系可帮助降低成本。过度的竞争导致的不确定性系统的增加成本</p>
+<ol start="3">
+<li>设计优化</li>
+</ol>
+<p>能不能优化、愿不愿意优化？</p>
+<p>采购作为供应商和设计之间的桥梁，能力和作用至关重要。不仅要懂成本，还需要懂产品设计、工艺设计。对外负责供应商管理，对内负责产品设计优化，最大程度执行成本控制。采购在成本控制中天然起到领袖作用，同时必离不开跨职能合作。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>供应链是从供应商的供应商到客户的客户的过程，供应商管理是对贯穿其中的信息流、产品流、资金流的集成管理，由供应管理、运营管理、物流管理三大职能构成。供应链管理的目的在于为客户提供最大化价值，同时最小化供应链成本。</p>
+<p>作为采购，属于供应管理职能，对外负责供应商管理，对内负责需求管理，参与产品设计优化。工作内容包括：分析开支、确认需求、评估供应商、选择供应商、签订协议、考核供应商绩效等。</p>
+<p>在成本控制中，作为供应商和设计的连接，采购天然起到领袖作用，需要对产品设计、生产工艺设计、成本都了解。同时成本控制需要跨职能的协作。谈判降本是工作内容之一，但却不是全部。多尝试从优化流程、优化设计方面入手。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E3%80%8A%E9%87%87%E8%B4%AD%E4%B8%8E%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86%E3%80%8B/" rel="tag"># 《采购与供应链管理》</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/03/29/%E8%AE%B0%E7%BD%91%E7%AB%99%E7%9A%84%E9%87%8D%E6%96%B0%E5%90%AF%E7%94%A8%EF%BC%81/" rel="prev" title="记网站的重新启用！">
+      <i class="fa fa-chevron-left"></i> 记网站的重新启用！
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/04/12/2%EF%BC%9A%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86-1/" rel="next" title="2：供应商管理-1">
+      2：供应商管理-1 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#内容概述"><span class="nav-text">内容概述</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-横向定义中的供应链"><span class="nav-text">1. 横向定义中的供应链</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-纵向角度中的供应链"><span class="nav-text">2. 纵向角度中的供应链</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-供应链战略"><span class="nav-text">3. 供应链战略</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-供应链设计"><span class="nav-text">4. 供应链设计</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-复杂度控制"><span class="nav-text">5. 复杂度控制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-控制牛鞭效应"><span class="nav-text">6. 控制牛鞭效应</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-库存管理"><span class="nav-text">7. 库存管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-降本三台阶"><span class="nav-text">8. 降本三台阶</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#总结"><span class="nav-text">总结</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Wu yusen"
+      src="/images/header.jpg">
+  <p class="site-author-name" itemprop="name">Wu yusen</p>
+  <div class="site-description" itemprop="description">给👴冲!</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Wu yusen</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

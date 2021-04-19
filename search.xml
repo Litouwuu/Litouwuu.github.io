@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>1：供应链的全局观</title>
+    <url>/2021/04/06/1%EF%BC%9A%E4%BE%9B%E5%BA%94%E9%93%BE%E7%9A%84%E5%85%A8%E5%B1%80%E8%A7%82/</url>
+    <content><![CDATA[<p><strong>2021.4.6 第一章：供应链的全局观</strong></p>
+<h1 id="内容概述"><a href="#内容概述" class="headerlink" title="内容概述"></a>内容概述</h1><p>​    作为本书的第一章，首先引入了供应链的基本概念。作为一个复杂的体系，关于什么是供应链有着不同角度的定义。作者首先从横向角度解释了什么是供应链（由计划控制下的三大职能组成），并以此进一步阐释：在这个角度下，为什么各个职能之间不协作？引入了强相关横向指标的概念；在从纵向角度切入供应链的概念时，首先抛出问题：为何供应链集成不起来？引入了<strong>关系和连接</strong>问题，在此之后系统解释了供应链的纵向定义（三流的集成）。</p>
+<p>​    接着是关于供应链战略、供应链设计部分。供应链战略需要与产品战略相匹配；供应链设计是对三个流的优化。</p>
+<p>​    引入复杂度的概念，关于如何降低复杂度、复杂度的起因、控制复杂度。</p>
+<p>​    牛鞭效应、降低库存、最后是供应链降本三台阶。</p>
+<a id="more"></a>
+
+<h2 id="1-横向定义中的供应链"><a href="#1-横向定义中的供应链" class="headerlink" title="1. 横向定义中的供应链"></a>1. 横向定义中的供应链</h2><p>供应链管理的三大组成部分：供应管理、运营管理、物流管理，三大职能服从计划管理，计划+三大职能构成供应链。</p>
+<ul>
+<li>供应管理<br>对外管理供应商，对内管理需求，使供应商成为公司的有机延申<br>职责：分析开支、确认需求、评估供应商、选择供应商、签订协议、管理供应商绩效</li>
+<li>运营管理<br>利用各方资源使产品增值的过程，关键点在于复杂的事情做千百遍不走样（品控）</li>
+<li>物流管理<br>管理产品、服务和信息的双向流动</li>
+</ul>
+<p>即供应链的高效运行需要三大职能的协作，为何不能做到高效的协作？</p>
+<p><strong>缺少强相关的指标</strong></p>
+<ul>
+<li>需要有相应的强制性惩罚措施</li>
+<li>需要建立科学的<strong>可量化的指标</strong></li>
+</ul>
+<p>除此之外还可以通过<strong>组织方式加强协作</strong>：促进协作、有明确的追责体系</p>
+<p>当组织越集中，内部的问题越不容易暴露；集中程度低时，互相之间可起到监督作用。</p>
+<h2 id="2-纵向角度中的供应链"><a href="#2-纵向角度中的供应链" class="headerlink" title="2. 纵向角度中的供应链"></a>2. 纵向角度中的供应链</h2><p>供应链是从供应商的供应商到客户的客户的过程，供应链管理是对贯穿其中的产品流、资金流、信息流的集成管理。目的在于为客户提供最大化价值，将成本最小化。</p>
+<p>为什么做不到集成？即无法围绕客户的订单，集成生产、采购、供应、生产等环节，给客户一个可靠、大概率兑现的承诺</p>
+<p>根本问题在于<strong>信息系统</strong></p>
+<p>供应链集成需要解决的问题：关系问题和连接问题</p>
+<ul>
+<li>关系问题：愿不愿意做，需要在绩效考核上做文章</li>
+<li>连接问题：建立流畅的基本流程；有能对接的基本信息系统</li>
+</ul>
+<p>关于物流管理和产品流，互相有交集，并非包含关系：</p>
+<ul>
+<li>产品流还包括生产工艺、生产过程等增值过程</li>
+<li>物流管理还包括信息流的概念</li>
+</ul>
+<h2 id="3-供应链战略"><a href="#3-供应链战略" class="headerlink" title="3. 供应链战略"></a>3. 供应链战略</h2><p>供应链与产品战略匹配即为合适的供应链战略。</p>
+<p>功能型产品配经济型供应链：走<strong>成本优势路线</strong></p>
+<p>创新型产品配响应型供应链：走<strong>差异化路线</strong></p>
+<p>创新型产品最终总会变为功能型，而功能型产品也会做出创新性改变，对于处理产品战略和供应链战略的差异：</p>
+<ol>
+<li>差异化供应链，成立快速相应的寻源部门</li>
+<li>分散经营，针对不同的产品线建立子供应链部门</li>
+<li>关停、转让任务</li>
+</ol>
+<h2 id="4-供应链设计"><a href="#4-供应链设计" class="headerlink" title="4. 供应链设计"></a>4. 供应链设计</h2><p>围绕产品和设计，优化产品流、资金流、信息流，降低供应链成本，提高响应速度</p>
+<p>最核心的是产品流的优化：</p>
+<p>如生产的模块化（外包），首先是产品流的改变，实际上也是设计的模块化。</p>
+<p>很多问题难以找到两全的决策：是否为新产品开发部门设置专门的供应链？如何整合现有的供应链？</p>
+<h2 id="5-复杂度控制"><a href="#5-复杂度控制" class="headerlink" title="5. 复杂度控制"></a>5. 复杂度控制</h2><p>复杂度是供应链的大敌，在很多行业，是供应链的管理能力而非技术限制着企业的发展和竞争力</p>
+<p>产品设计可分为集成式设计、模块化设计。</p>
+<p>复杂度产生原因：</p>
+<ol>
+<li>客户的独特需求<br>先识别：什么是客户真正想要的？真正的方案是帮助客户理解需求找到最优的解决方案，而非一味的满足需求<br>是否有更好的解决方法？</li>
+<li>创新<br>在有限制的条件下创新，考虑创新带来的变化能否在供应链的承受能力之内？无约束的创新只是无谓的多元化，带来成本的上升<br>以预防为主，在科技企业中，一旦技术不再是最最强力的驱动力，创新带来的复杂度是灾难性的</li>
+<li>纳入过多的供应商<br>非良性竞争、降低了规模效益</li>
+</ol>
+<p>如何控制复杂度？</p>
+<ul>
+<li>推动设计和生产的标准化、模块化、通用化</li>
+<li>供应商分层分级，把复杂的产品化整为零分配给供应商完成</li>
+<li>整合供应商</li>
+</ul>
+<p>所有的复杂度都对应着成本的增加，通过五大模块收口子控制复杂度：</p>
+<p>销售管理客户需求，标准化需求，给客户更好的方案；设计的模块化、标准化、通用化；计划对有重复性的半成品、原料方便做好控制；采购管理供应商；生产标准化工艺</p>
+<p>供应链中的大并不代表伟大。</p>
+<h2 id="6-控制牛鞭效应"><a href="#6-控制牛鞭效应" class="headerlink" title="6. 控制牛鞭效应"></a>6. 控制牛鞭效应</h2><p>牛鞭效应：从零售商到供应商，需求的波动逐级增大。是影响供应链的一个根本性问题</p>
+<p>面对需求变化，传递到供应商时的反应有增加产能或库存，都会引起牛鞭效应</p>
+<p>根本原因在于时间差和信息差。</p>
+<p>牛鞭效应的诱因：</p>
+<ol>
+<li>多重预测：安全库存、富裕系数等，被逐级放大</li>
+<li>批量生产与购买（过量）</li>
+<li>促销活动与价格浮动</li>
+<li>理性预期（由于不能完成供货要求，客户多下订单）</li>
+</ol>
+<p>牛鞭效应的应对：跨行分摊风险、外包（转移至供应商，影响在供应商处被稀释）、<strong>信息共享</strong></p>
+<h2 id="7-库存管理"><a href="#7-库存管理" class="headerlink" title="7. 库存管理"></a>7. 库存管理</h2><p>库存问题的诱因存在于各个方面：需求预测不准、生产执行力不强、产品质量出问题、供应来源不稳定、设计杂乱变化快等。即各个环节出现问题都会反映在库存上。</p>
+<p>降低库存的运动（设定指标、绩效考核等）只会系统性地增加需求变动，使库存增加。</p>
+<p>库存分类：周转库存、安全库存、多余库存</p>
+<ul>
+<li>周转库存<br>必要的库存量，生产、运输过程中的在制、在途库存，由周转周期驱动<br>采购角度：降低供应商的采购提前期（建立过程库存等）<br>生产角度：降低生产、调试周期（生产过程标准化、模块化设计）<br>信息流角度：优化流程，缩短信息周转周期</li>
+<li>安全库存<br>更有效准确的需求预测，降低不可控因素和不确定因素：信息不对称、压货等</li>
+<li>管理需求</li>
+</ul>
+<h2 id="8-降本三台阶"><a href="#8-降本三台阶" class="headerlink" title="8. 降本三台阶"></a>8. 降本三台阶</h2><p>谈判降本、优化流程、优化设计</p>
+<ol>
+<li>谈判降本的本质是利润的转移，将成本压向供应商，最终会通过其它方式得到负反馈（供应商关系、合作、质量）</li>
+</ol>
+<p>常用手段：集中采购、整合需求、整合供应商等</p>
+<p>一味压低价格，诱导供应商恶性竞争最后会导致质量低、无法建立稳定的供应商关系等</p>
+<ol start="2">
+<li>优化流程</li>
+</ol>
+<p>降低生产成本和交易成本。生产成本通过精益生产等方式降低，有效但程度有限</p>
+<p>交易成本不增加价值却必不可少，除了必要的流程之外（可通过电子商务手段降低），商务关系也是交易成本的高的原因：稳定的供应商关系可帮助降低成本。过度的竞争导致的不确定性系统的增加成本</p>
+<ol start="3">
+<li>设计优化</li>
+</ol>
+<p>能不能优化、愿不愿意优化？</p>
+<p>采购作为供应商和设计之间的桥梁，能力和作用至关重要。不仅要懂成本，还需要懂产品设计、工艺设计。对外负责供应商管理，对内负责产品设计优化，最大程度执行成本控制。采购在成本控制中天然起到领袖作用，同时必离不开跨职能合作。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>供应链是从供应商的供应商到客户的客户的过程，供应商管理是对贯穿其中的信息流、产品流、资金流的集成管理，由供应管理、运营管理、物流管理三大职能构成。供应链管理的目的在于为客户提供最大化价值，同时最小化供应链成本。</p>
+<p>作为采购，属于供应管理职能，对外负责供应商管理，对内负责需求管理，参与产品设计优化。工作内容包括：分析开支、确认需求、评估供应商、选择供应商、签订协议、考核供应商绩效等。</p>
+<p>在成本控制中，作为供应商和设计的连接，采购天然起到领袖作用，需要对产品设计、生产工艺设计、成本都了解。同时成本控制需要跨职能的协作。谈判降本是工作内容之一，但却不是全部。多尝试从优化流程、优化设计方面入手。</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+        <category>供应链</category>
+      </categories>
+      <tags>
+        <tag>《采购与供应链管理》</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2021/04/19/test/</url>
+    <content><![CDATA[<p>a test after converting to new PC.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>2：供应商管理-1</title>
+    <url>/2021/04/12/2%EF%BC%9A%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86-1/</url>
+    <content><![CDATA[<p>2021.4.12 第二章：供应商管理</p>
+<h1 id="内容概述"><a href="#内容概述" class="headerlink" title="内容概述"></a>内容概述</h1><p>​    本周学习内容从宏观角度介绍了为什么要系统地选择和管理供应商、选择和管理供应商的五大流程、在供应商管理中的三大误区。强调了良好的管理能力应包括组织、系统、流程三个方面，分别起到各自的作用。</p>
+<p>​    供应商战略的一大标志是合格供应商清单的建立。</p>
+<a id="more"></a>
+
+<h2 id="1-为什么要管理供应商"><a href="#1-为什么要管理供应商" class="headerlink" title="1. 为什么要管理供应商"></a>1. 为什么要管理供应商</h2><p>供应链管理的目的在于提高质量和速度，给客户提供最大化价值，降低成本。</p>
+<p>制造业中，70%的成本来自于供应商——供应商创造70%的价值</p>
+<p>供应商选择与管理的5大流程：</p>
+<ol>
+<li>供应商分类</li>
+<li>供应商评估</li>
+<li>供应商选择</li>
+<li>供应商绩效考核</li>
+<li>供应商集成</li>
+</ol>
+<p>供应链面对的形势：</p>
+<ul>
+<li>全球化和技术发展导致的供应链跨度、长度增加，可见度和可控性下降</li>
+<li>成熟行业的供应商经过整合，议价能力上升，管理难度上升</li>
+<li>供应链中断的风险和危害增大</li>
+</ul>
+<p>战略寻源：一个健康的小孩出生；供应商绩效考核：通过考试保持现有能力；供应商集成：通过教育使取得更好成绩</p>
+<h2 id="2-供应商选择与管理中的三大误区"><a href="#2-供应商选择与管理中的三大误区" class="headerlink" title="2. 供应商选择与管理中的三大误区"></a>2. 供应商选择与管理中的三大误区</h2><ol>
+<li>多权分立，供应商成公共草地，<strong>无人从组织上作为一个整体对供应商负责</strong></li>
+</ol>
+<p>除了采购、技术和质量外，把三大职能之下继续分割职能，目的在于：避免权力集中带来的贪腐问题</p>
+<p>后果：公司内部无法形成合力，各自为自己的利益考虑，面对强势供应商时被逐个击破，议价能力丧失；供应商的利益得不到保障，遇到问题时各部门踢皮球，只能找靠山，系统性地造成贪腐问题</p>
+<p>原因：没有健全的流程和系统，只能通过组织层面弥补；没有客观量化的指标，无法从结果管控行为，只能从过程管控</p>
+<p>对策：设置专门的职位，对内从组织上协调选择和管理供应商的职能，对外代表公司维护与供应商关系；通过完善的流程和系统限制权力</p>
+<p>战略寻源的核心：供应商评估，评估内容包括生产控制体系、质量管理体系、物料管理体系等</p>
+<ol start="2">
+<li>只有订单层面的流程，<strong>没有在供应商选择和管理上的系统的流程**</strong></li>
+</ol>
+<p>是否存在一叠文件，实习生学习以后就可以了解公司如何选择供应商？</p>
+<p>缺少健全的流程：要么选不好要么管不好供应商</p>
+<p>最简单的流程标准化：召集优秀员工，取共同的好的做法</p>
+<ol start="3">
+<li>只有料号、项目层面的优化，<strong>没有整个供应商层面的优化</strong></li>
+</ol>
+<p>对应系统：限于局部利益、短期利益；忽略全局利益和长期利益。体现在<strong>供应商的口子收不起来</strong></p>
+<ul>
+<li><p>实现小优化、小降本的同时，导致供应商的泛滥</p>
+<p>一是管理资源被分摊，难以管好供应商；二是不能成为某一个供应商的大客户，话语权不足</p>
+<p>对策：对供应商收口子，只保留3个。集中采购额获得更大话语权和议价权</p>
+</li>
+<li><p>没有供应商战略。考虑长期和全局利益</p>
+<p>避免设计人员架空采购，严格的遵守合格供应商清单。杜绝/减少灵活性的现象（缺少计划性）</p>
+<p>没有计划性，采购的早期介入也更不现实</p>
+<p>设计、质量、采购应形成跨职能小组。</p>
+</li>
+</ul>
+<h2 id="3-供应商的选择与管理：组织、系统与流程"><a href="#3-供应商的选择与管理：组织、系统与流程" class="headerlink" title="3.供应商的选择与管理：组织、系统与流程"></a>3.供应商的选择与管理：组织、系统与流程</h2><p>评价供应商选择与管理的能力：</p>
+<ol>
+<li>职责分明、结构清晰的组织</li>
+<li>闭环的、标准的流程</li>
+<li>统一、跨职能的信息系统</li>
+</ol>
+<p>组织：协调设计、质量、采购的利益</p>
+<p>系统：信息系统在供应链选择与管理中，一是作为工具、二是提供反馈、三是固化流程</p>
+<p>流程：分类、评估、选择、绩效考核、集成</p>
+<ul>
+<li><p>供应商分类：筛选过程、内部沟通使用、区别对待、摸清市场</p>
+</li>
+<li><p>供应商评估：包括对生产控制、质量管理、物料管理体系和历史绩效</p>
+</li>
+<li><p>供应商选择：可选择多个供应商的原因在于，可满足不同的需求（潜在的）</p>
+<p>前三点构成战略寻源</p>
+</li>
+<li><p>供应商绩效考核：维持供应商的水平</p>
+</li>
+<li><p>供应商集成：优化设计、流程对接、工艺优化等</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习</category>
+        <category>供应链</category>
+      </categories>
+      <tags>
+        <tag>《采购与供应商管理》</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用hexo部署blog</title>
+    <url>/2020/05/27/%E4%BD%BF%E7%94%A8hexo%E9%83%A8%E7%BD%B2blog/</url>
+    <content><![CDATA[<p>本文为刚开始建立网站时所写。由于边写边干，有明显的逻辑不清。主要目的在于记录和方便回看。</p>
+<h1 id="1-从git安装到部署hexo"><a href="#1-从git安装到部署hexo" class="headerlink" title="1. 从git安装到部署hexo"></a>1. 从git安装到部署hexo</h1><p>根据知乎<a href="https://www.zhihu.com/people/fang-ze-hua-56" target="_blank" rel="noopener">直上云霄</a>的回答：<a href="https://zhuanlan.zhihu.com/p/44213627" target="_blank" rel="noopener">hexo超完整的搭建教程，让你拥有一个专属个人博客</a>进行部署。参考了customize之前的内容，未设置个人域名。<code>（该文章中还有关于git分支进行多终端工作的部分，在更换电脑后会用到）</code></p>
+<p>搭建时主要内容包括：</p>
+<ul>
+<li>安装git、node.js、hexo</li>
+<li>GitHub创建个人仓库</li>
+<li>生成SSH添加至GitHub</li>
+<li>将hexo部署至GitHub</li>
+<li>设置个人域名</li>
+<li>发布文章</li>
+</ul>
+<p>该回答还有关于hexo的基本配置，更换主题，实现多终端工作和添加各种功能，包括搜索的SEO，阅读量统计，访问量统计和评论系统等的内容，以后仍需参考。</p>
+<a id="more"></a>
+
+<h1 id="2-主题设置等"><a href="#2-主题设置等" class="headerlink" title="2. 主题设置等"></a>2. 主题设置等</h1><p>参考<a href="https://www.zhihu.com/people/wurun" target="_blank" rel="noopener">吴润</a>的回答：<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">GitHub+ Hexo搭建个人网站详细教程</a>，同样也很详细。</p>
+<h1 id="3-参考hexo官方文件"><a href="#3-参考hexo官方文件" class="headerlink" title="3. 参考hexo官方文件"></a>3. 参考hexo官方文件</h1><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">点击这里</a>。内容包括安装、使用方法、命令、主题等。</p>
+<h1 id="4-添加分类及标签"><a href="#4-添加分类及标签" class="headerlink" title="4. 添加分类及标签"></a>4. 添加分类及标签</h1><p>是针对主题的config设置，参考回答：<a href="https://www.jianshu.com/p/e17711e44e00" target="_blank" rel="noopener">Hexo使用攻略-添加分类及标签</a>。</p>
+<h1 id="5-更多个性化设置"><a href="#5-更多个性化设置" class="headerlink" title="5. 更多个性化设置"></a>5. 更多个性化设置</h1><p>主要参考文章<a href="http://www.360doc.com/content/19/0418/20/22888630_829741117.shtml" target="_blank" rel="noopener">hexo的Next主题详细配置</a>。</p>
+<p>使用到的内容包括：</p>
+<ol>
+<li>头像设置 Sidebar Avatar</li>
+<li>添加搜索功能</li>
+<li>添加阅读全文按钮</li>
+<li>设置文章字体的颜色、大小、居中（使用html语法）</li>
+</ol>
+<h2 id="5-1-取消网站自带的文章目录编号"><a href="#5-1-取消网站自带的文章目录编号" class="headerlink" title="5.1 取消网站自带的文章目录编号"></a>5.1 取消网站自带的文章目录编号</h2><p>主题配置文件——toc——number改成false</p>
+<h2 id="5-2-字数统计和阅读时长功能"><a href="#5-2-字数统计和阅读时长功能" class="headerlink" title="5.2 字数统计和阅读时长功能"></a>5.2 字数统计和阅读时长功能</h2><ul>
+<li>安装插件</li>
+</ul>
+<p><code>npm install hexo-symbols-count-time --save</code></p>
+<ul>
+<li>修改<strong>站点</strong>配置文件</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#文章内是否显示</span><br><span class="line"> symbols: true</span><br><span class="line"> time: true</span><br><span class="line">#网页底部是否显示</span><br><span class="line"> total_symbols: true</span><br><span class="line"> total_time: true</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>修改<strong>主题</strong>配置文件</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">separated_meta: true</span><br><span class="line">#文章中的显示是否显示文字（本文字数|阅读时长） </span><br><span class="line">item_text_post: true</span><br><span class="line">#网页底部的显示是否显示文字（站点总字数|站点阅读时长） </span><br><span class="line">item_text_total: false</span><br><span class="line">#Average Word Length (chars count in word)</span><br><span class="line">awl: 4</span><br><span class="line">#Words Per Minute</span><br><span class="line">wpm: 275</span><br></pre></td></tr></table></figure>
+
+<h2 id="5-3-Next主题颜色"><a href="#5-3-Next主题颜色" class="headerlink" title="5.3 Next主题颜色"></a>5.3 Next主题颜色</h2><p><a href="https://www.jianshu.com/p/ad0d867a8cb6" target="_blank" rel="noopener">详细教程</a>。主要是不喜欢目录中，选中部分变成了红色。</p>
+<p><code>hexo/themes/next/source/css/_variables/base.styl</code>找到Colors</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// colors for use across theme.</span></span><br><span class="line"><span class="comment">// --------------------------------------------------</span></span><br><span class="line">  $whitesmoke   = <span class="comment">#f5f5f5</span></span><br><span class="line">  $gainsboro    = <span class="comment">#eee  //这个是边栏头像外框的颜色，</span></span><br><span class="line">  $gray-lighter = <span class="comment">#ddd  //文章中插入图片边框颜色</span></span><br><span class="line">  $grey-light   = <span class="comment">#ccc  //文章之间分割线、下划线颜色</span></span><br><span class="line">  $grey         = <span class="comment">#bbb  //页面选中圆点颜色</span></span><br><span class="line">  $grey-dark    = <span class="comment">#999</span></span><br><span class="line">  $grey-dim     = <span class="comment">#666 //侧边栏目录字体颜色</span></span><br><span class="line">  $black-light  = <span class="comment">#555 //修改文章字体颜色</span></span><br><span class="line">  $black-dim    = <span class="comment">#333</span></span><br><span class="line">  $black-deep   = <span class="comment">#495a80  //修改主题的颜色，这里我已经改成老蓝色了。</span></span><br><span class="line">  $red          = <span class="comment">#ff2a2a</span></span><br><span class="line">  $blue-bright  = <span class="comment">#87daff</span></span><br><span class="line">  $blue         = <span class="comment">#0684bd</span></span><br><span class="line">  $blue-deep    = <span class="comment">#262a30</span></span><br><span class="line">  $orange       = <span class="comment">#F39D01 //浏览文章时，目录选中的颜色</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>hexo 网站部署</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>可乐鸡翅</title>
+    <url>/2020/06/02/%E5%8F%AF%E4%B9%90%E9%B8%A1%E7%BF%85/</url>
+    <content><![CDATA[<p>非常规做法，味道丰富啊</p>
+<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>鸡翅、柠檬、可乐、葱、姜、花椒、生抽</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
+<li><p>鸡翅+柠檬片+可乐，腌制30min</p>
+</li>
+<li><p>鸡翅和柠檬取出，冷水下锅煮沸3min</p>
+<a id="more"></a>
+</li>
+<li><p>鸡翅取出冷水洗净沥干</p>
+</li>
+<li><p>冷油下锅，鸡翅煎至两面金黄</p>
+</li>
+<li><p>加入可乐没过鸡翅</p>
+</li>
+<li><p>加入葱姜、花椒、生抽两勺</p>
+</li>
+<li><p>中火10min，最后大火收汁</p>
+</li>
+</ol>
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/02/%E5%8F%AF%E4%B9%90%E9%B8%A1%E7%BF%85/可乐鸡翅.jpg" alt="img" style="zoom: 33%;">
+
+<p>由于加了花椒和柠檬，整体味道层次还蛮丰富。总体来说味道深得我心。</p>
+<p>不足在于油煎过程的油放少了，导致粘锅，以致进一步的一些鸡翅受损；且没有等到完全煎至黄色，应该是对结果产生里不利影响。</p>
+<p>收汁的过程，由于泡沫过多也有些难以控制，第一次做的时候还补加了水。</p>
+<h2 id="展望"><a href="#展望" class="headerlink" title="展望"></a>展望</h2><p>下次最好使用平底锅做；油应多放一些。</p>
+<p>可以尝试加入其它辅料，如鸡蛋、薯片等。</p>
+<p>做了10个，量偏低，今后15个起步。</p>
+]]></content>
+      <categories>
+        <category>生活知识</category>
+      </categories>
+      <tags>
+        <tag>做菜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初次部署遇到的问题</title>
+    <url>/2020/05/26/%E5%88%9D%E6%AC%A1%E9%83%A8%E7%BD%B2%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="1-更新延迟问题"><a href="#1-更新延迟问题" class="headerlink" title="1. 更新延迟问题"></a>1. 更新延迟问题</h1><p>表现为在修改本地文件后，使用hexo clean&amp; hexo generate&amp; hexo deploy后，网站不会及时作出反应。</p>
+<p>在更新多次或是<strong>过一段时间</strong>（原因存疑）后，一般可以得到解决。</p>
+<ul>
+<li>通过观察执行hexo d后的反馈，可以得到有用信息</li>
+</ul>
+<h2 id="1-1-更新文章内容延迟"><a href="#1-1-更新文章内容延迟" class="headerlink" title="1.1 更新文章内容延迟"></a>1.1 更新文章内容延迟</h2><ol>
+<li>修改md文件后，进行上传一套操作无法立即使网页内容更改</li>
+<li>删除test的md文件，在网站中仍有显示，不过打开后显示404 Not Found</li>
+</ol>
+<h2 id="1-2-更新主题延迟"><a href="#1-2-更新主题延迟" class="headerlink" title="1.2 更新主题延迟"></a>1.2 更新主题延迟</h2><ol>
+<li>在主题的更换、Scheme的选择上，总是出现问题</li>
+<li>主题config文件中的scheme，只能选择一种，否则会造成错误</li>
+</ol>
+<a id="more"></a>
+
+<h2 id="1-3-已解决"><a href="#1-3-已解决" class="headerlink" title="1.3 已解决"></a>1.3 已解决</h2><p>解决方法：hexo g&amp; hexo d后，执行hexo s –debug。在本地查看后顺利更新。</p>
+<h1 id="2-乱码错误"><a href="#2-乱码错误" class="headerlink" title="2. 乱码错误"></a>2. 乱码错误</h1><p>主要是中文出现问题，可能的解决方法：</p>
+<ol>
+<li>_config文件改变编码为utf-8</li>
+<li>查看git bash在hexo d后的信息提示，如：theme的config文件出现问题，#scheme的选项附近</li>
+<li>目录文件的config下language设置，应从theme的language文件下选择</li>
+</ol>
+<h2 id="2-1-Next主题主页“归档”乱码"><a href="#2-1-Next主题主页“归档”乱码" class="headerlink" title="2.1 Next主题主页“归档”乱码"></a>2.1 Next主题主页“归档”乱码</h2><ul>
+<li>乱码部分应显示中文，但文章里的中文未出现问题</li>
+<li>在scheme选择Pisces时出现，尝试多种方式没能解决</li>
+<li>当把scheme设置为Mist时，归档成功显示。可能为该scheme的问题。</li>
+</ul>
+<h2 id="2-2-侧边栏错误"><a href="#2-2-侧边栏错误" class="headerlink" title="2.2 侧边栏错误"></a>2.2 侧边栏错误</h2><p>添加搜索功能后一直显示在搜索中，无法执行搜索</p>
+<p>执行hexo clean后直接解决</p>
+<h2 id="2-3-侧边栏中，分类点击后404"><a href="#2-3-侧边栏中，分类点击后404" class="headerlink" title="2.3 侧边栏中，分类点击后404"></a>2.3 侧边栏中，分类点击后404</h2><p>原因：主题config文件menu设置下的catogories莫名被自己不小心修改了</p>
+]]></content>
+      <categories>
+        <category>hexo 网站部署</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>图片不显示问题</title>
+    <url>/2020/06/27/%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>通过设置，在hexo new命令以后，会自动生成文章同名文件夹。</p>
+<p>在此情况下，使用typora自带的插入图片功能和<u><code>![](图片名.jpg)</code></u>的方式，可以在编辑的时候看到图片但网站中无法显示。可能的原因为更改缩放比例后，会自动改变图片的插入形式。</p>
+<p>解决方式：</p>
+<p>使用<code>![](同名文件夹/图片名.jpg)</code>的方法可以解决。且能够通过typora的快捷方法改变图片缩放比例。</p>
+]]></content>
+      <categories>
+        <category>hexo 网站部署</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>实属炒蛋</title>
+    <url>/2020/06/02/%E5%AE%9E%E5%B1%9E%E7%82%92%E8%9B%8B/</url>
+    <content><![CDATA[<p>纯炒鸡蛋，无敌下饭</p>
+<h2 id="材料："><a href="#材料：" class="headerlink" title="材料："></a>材料：</h2><p>鸡蛋*5、淀粉、生抽、陈醋、耗油、白糖、辣椒粉</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
+<li>五个鸡蛋打散，出现泡沫为止；</li>
+<li>调配料：淀粉一勺，生抽两勺，陈醋两勺，耗油一勺，白糖一勺，辣椒粉一勺，加入一小碗清水，搅拌均匀；</li>
+<li>起锅烧油！八成油温下鸡蛋，小火慢炒至微成型；</li>
+<li>加入调料，翻炒至收汤；<a id="more"></a></li>
+<li>结束</li>
+</ol>
+<img src="/2020/06/02/%E5%AE%9E%E5%B1%9E%E7%82%92%E8%9B%8B/炒鸡蛋.jpg" alt="炒鸡蛋" style="zoom:50%;">
+
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><p>第一次的配料完全按照上述方法，结果完全符合预料的好吃，只不过稍微有点咸，但可以被其它好的味道掩盖；</p>
+<p>第二次少加了一些生抽，导致味道明显变淡，不好吃。</p>
+<h2 id="展望"><a href="#展望" class="headerlink" title="展望"></a>展望</h2><p>基本没有上升空间了</p>
+]]></content>
+      <categories>
+        <category>生活知识</category>
+      </categories>
+      <tags>
+        <tag>做菜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常用命令</title>
+    <url>/2020/05/26/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p><code>hexo s --debug</code>    </p>
+<ul>
+<li>预览博文效果</li>
+</ul>
+<p><code>hexo clean</code>    </p>
+<ul>
+<li><p>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)</p>
+</li>
+<li><p>在某些情况（尤其是更换主题后），如果发现对站点的更改无论如何也不生效，可能需要运行该命令</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>hexo 网站部署</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手撕茄子</title>
+    <url>/2020/06/05/%E6%89%8B%E6%92%95%E8%8C%84%E5%AD%90/</url>
+    <content><![CDATA[<p>撕起来很烫</p>
+<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>茄子、青椒、大蒜头、红辣椒、生抽、醋、白糖、盐、香油</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
+<li><p>茄子切块，蒸锅蒸15min，撕成条状摆盘</p>
+</li>
+<li><p>调料汁：两勺生抽，两勺陈醋，一勺白糖，少量盐，香油适量</p>
+<a id="more"></a>
+</li>
+<li><p>油锅下入蒜末、小米辣、青椒，翻炒后倒入料汁10s</p>
+</li>
+<li><p>料汁淋上茄子</p>
+</li>
+</ol>
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/05/%E6%89%8B%E6%92%95%E8%8C%84%E5%AD%90/茄子.jpg" alt="img" style="zoom:33%;">
+
+<p>与料汁有亲密接触的茄子属实可以。问题在于出现了失误，茄子的量过多，导致按教程调的料汁不能满足茄子的需求。</p>
+<p>尝试通过调两份料，出现的第二个问题是油未控制好，两次炒制都放了3勺半的油。最后的成品更像是一个油焖茄子，不够绿色健康。</p>
+<p>任重而道远啊，这次不算成功！</p>
+]]></content>
+      <categories>
+        <category>生活知识</category>
+      </categories>
+      <tags>
+        <tag>做菜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>番茄炒蛋</title>
+    <url>/2020/06/26/%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B/</url>
+    <content><![CDATA[<p>番茄炒鸡蛋！</p>
+<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>番茄、土鸡蛋、小葱、糖、盐、番茄酱、料酒</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
+<li><p>一个番茄开水烫，去皮切块。香葱切沫</p>
+</li>
+<li><p>打四个鸡蛋，加一滴料酒，一点点的盐和更少的糖</p>
+</li>
+<li><p>烧热油，倒入鸡蛋液</p>
+<a id="more"></a>
+</li>
+<li><p>鸡蛋炒成半凝固的大块，盛出放碗里</p>
+</li>
+<li><p>锅里加入一点点油，烧热放进番茄。挤压番茄，放入糖、盐，更快出汁。加番茄酱</p>
+</li>
+<li><p>炒出浓稠汤汁后加入香葱末</p>
+</li>
+<li><p>倒入鸡蛋，<em>可以加一些青椒</em>。翻拌均匀</p>
+</li>
+<li><p>快速结束，防止鸡蛋变老</p>
+</li>
+</ol>
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><p>平淡无奇，就是普通的炒鸡蛋而已啊</p>
+<p>甚至不配拥有一个单独的照片</p>
+]]></content>
+      <categories>
+        <category>生活知识</category>
+      </categories>
+      <tags>
+        <tag>做菜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>番茄肥牛锅</title>
+    <url>/2020/06/26/%E7%95%AA%E8%8C%84%E8%82%A5%E7%89%9B%E9%94%85/</url>
+    <content><![CDATA[<p>番茄肥牛金针菇的汤，好喝死！</p>
+<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>肥牛卷、西红柿、番茄酱、金针菇、葱、姜、蒜、盐、生抽</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
+<li><p>西红柿煮开水去皮切块，争取小碎块</p>
+</li>
+<li><p>牛肉卷煮熟去血沫，放到碗里备用</p>
+</li>
+<li><p>油锅下葱姜蒜，切片爆香，油不能太多</p>
+<a id="more"></a>
+</li>
+<li><p>加入切好的西红柿，挤进去番茄酱，倒两勺生抽，把番茄炒至软烂</p>
+</li>
+<li><p>加入开水，水开后加入煮好的牛肉和金针菇</p>
+</li>
+<li><p>加一勺盐，继续煮开五分钟</p>
+</li>
+</ol>
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/26/%E7%95%AA%E8%8C%84%E8%82%A5%E7%89%9B%E9%94%85/番茄肥牛锅.jpg" alt="img" style="zoom:20%;">
+
+<p>好像牛肉多煮一会也不会太老啊。</p>
+<p>整体都很好吃，可惜这一次做的时候姜味有点太重了，不能放太大的姜片进去了。</p>
+<p>图片中的作品由48块钱的肥牛卷的一半+一个番茄+常见销售的金针菇的一半构成，以供以后参考。</p>
+]]></content>
+      <categories>
+        <category>生活知识</category>
+      </categories>
+      <tags>
+        <tag>做菜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>社保知识（一）医疗保险</title>
+    <url>/2020/05/28/%E7%A4%BE%E4%BF%9D%E7%9F%A5%E8%AF%86%EF%BC%88%E4%B8%80%EF%BC%89%E5%8C%BB%E7%96%97%E4%BF%9D%E9%99%A9/</url>
+    <content><![CDATA[<p>本文主要参考<a href="https://www.zhihu.com/people/bao-bei-shuo-bao" target="_blank" rel="noopener">知乎保贝</a>说保关于社保问题的<a href="https://www.zhihu.com/question/47845109/answer/1235006626" target="_blank" rel="noopener">问答</a>。根据自己可能的需求进行删减并结构的调整。主要介绍内容为五险一金中的医疗保险，有关城居保内容可以参考上述回答。</p>
+<h1 id="1-何为社保五险一金？"><a href="#1-何为社保五险一金？" class="headerlink" title="1. 何为社保五险一金？"></a>1. 何为社保五险一金？</h1><p>我国的社保分为两个系统，分别针对有雇主的打工族和没有工作的人。</p>
+<ul>
+<li>城镇职工社会保险，即五险一金</li>
+</ul>
+<p>针对有正规雇主的打工族。包括养老保险、医疗保险、生育保险、工伤保险、失业保险和住房公积金。国家强制用人单位替职工缴纳；个人仅需承担一小部分，其余部分由公司承担。</p>
+<ul>
+<li>城乡居民保险，简称城居保（旧称新农合）</li>
+</ul>
+<p>参保人群：没有工作的城镇居民。所有保险费用需要自己承担（有地区有政府补贴），但总额低于五险一金。不强制参保。保险内容只有医疗和养老两个部分，且医疗包销比例和养老金的领取额度低于五险一金。</p>
+<h1 id="2-社保缴费额"><a href="#2-社保缴费额" class="headerlink" title="2. 社保缴费额"></a>2. 社保缴费额</h1><p>社保缴费有明显的地域性，各地缴费比例不一。</p>
+<a id="more"></a>
+
+<p><img src="https://pic1.zhimg.com/80/v2-16492b8e6486522ca174e6b4c09b160c_720w.jpg" alt="图1 郑州五险一金缴纳"></p>
+<p>比例是指缴费额占每个月工资比。如郑州一个月10k，则需要拿出1730缴纳五险一金，同时公司承担帮ta承担3360。公司才是承担五险一金的大头。</p>
+<h2 id="注意事项与可能的坑"><a href="#注意事项与可能的坑" class="headerlink" title="注意事项与可能的坑"></a>注意事项与可能的坑</h2><ol>
+<li>公司<strong>违规以当地社保的最低标准为基数</strong>进行缴费以节省成本</li>
+</ol>
+<p>影响：直接降低了退休后要领的钱和医保账户里的钱。</p>
+<p>解决方法：保存工资条，拨打12333举报！</p>
+<ol start="2">
+<li>关于住房公积金</li>
+</ol>
+<p>国家强制缴纳公积金。但各地的公积金缴纳比例不固定，一般在5-12%之间自行选择，且个人和单位缴费比例1：1。</p>
+<p>如有公司不缴纳或者少缴漏缴，也可以拨打12333举报！</p>
+<ol start="3">
+<li>五险一金的上下限</li>
+</ol>
+<p>每个城市根据自己当地的平均工资下面划的有最低缴费基数，一般是当地平均工资的60%，上有最高缴费基数当地平均工资的三倍。也就是说工资再高，也不可以随便交；工资再低，也能有最低看病养老的保底线。</p>
+<h1 id="3-医疗保险"><a href="#3-医疗保险" class="headerlink" title="3 医疗保险"></a>3 医疗保险</h1><p>职工医保和城居保的缴费、待遇区别。</p>
+<p><img src="https://pic2.zhimg.com/80/v2-6ec6394a997d034d38350c61d4887fb8_720w.jpg" alt="图2 两种医保缴费不同"><img src="https://pic2.zhimg.com/80/v2-92a0820617fd021bf14cd001cfacb5a2_720w.jpg" alt="图3 两种报销比例差别"></p>
+<p>前者比后者交的多，报销时候享受的待遇也更好。主要表现在报销比例上，同样等级的医院看病，一样的用药，职工医保能报销的比例普遍比城居保的报销比例要高10%-20%。</p>
+<p>如果没有工作，但有钱，想享受医疗待遇更好的职工医保，可以在户籍所在地以灵活就业人员的身份参加城镇职工医保。将来生病享受的报销比例，是和有工作的人一样的。</p>
+<h2 id="所交医保费用的去向"><a href="#所交医保费用的去向" class="headerlink" title="所交医保费用的去向"></a>所交医保费用的去向</h2><p>分为两个部分：个人账户与统筹账户</p>
+<ol>
+<li>个人账户</li>
+</ol>
+<p>可以用于定点药房买药，门诊看病。<strong>自由支配</strong>，相当于专门用于医疗项目的银行卡（没利息的）。</p>
+<p>对于职工医保，平时自己缴纳的2%都会直接被划入个人账户，用于医疗消费使用；除此之外，公司缴纳的8%也会有部分返还给个人，一并划入个人账户内。具体比例应各地政策而异。</p>
+<ol start="2">
+<li>统筹账户</li>
+</ol>
+<p>即公共账户。平时所说的医保报销，就是从这个账户里扣的钱，而不是个人账户。</p>
+<p>在平日里，每个人都会拿出一部分钱放进国家医保这个大池子。也就是城居保交的那几百块钱，和职工医保中公司缴纳的8%中的部分金额，还有包括政府补贴的金额，这样以后不管谁生了病，都可以直接从这个大池子里取钱看病。也就是说，无论交了多少，都可以<strong>享受同样的医疗待遇</strong>，只不过职工医保和居民医保的报销比例稍微有所不同，这也就是为什么有人说医保是国家“劫富济贫”的慈善。</p>
+<h2 id="医保的报销额度"><a href="#医保的报销额度" class="headerlink" title="医保的报销额度"></a>医保的报销额度</h2><p>首先，只有在一定点三目录中的项目才享受医保。</p>
+<p><strong>一定点</strong>即定点医院，并不是所有医院都能享受医保报销的，如私立诊所、海外就医等，这些社保都不予以支持，</p>
+<p>包括平时买药也是，只有前往医保内定点药店，才能刷医保卡享受医保待遇；</p>
+<p><strong>三目录</strong>即药品目录、诊疗项目目录和医疗服务设施目录。</p>
+<ul>
+<li>医保可以报销多少？</li>
+</ul>
+<p><strong>报销金额=（治疗总费用－起付线－自费部分）×报销比例 ≤最高报销额</strong></p>
+<p><strong>起付线</strong>即最低报销额，起付线以下全部自费，超过起付线的部分才予以报销；<strong>最高报销额</strong>即报销上限，无论你花多少，医保最多给你报这么多；<strong>自费部分</strong>即超出社保目录外用药、项目等，社保不能够报销的部分；</p>
+<p>而根据实际情况，咱们一般会遇到<strong>门诊、住院和大病</strong>三种情况，</p>
+<p><strong>1）门诊</strong></p>
+<p>这种情况下一般花费不多，有的城市直接没有设置起付线，但医保内个人账户里的钱不影响使用，同样可以在结算时直接刷卡使用，如图：</p>
+<p><img src="https://pic3.zhimg.com/80/v2-888717d710f071d4638d4ae4e6288504_720w.jpg" alt="img"></p>
+<p>举个例子，假设老王不舒服去郑州某市级看病，共花了300元，且全是社保内用药，那么老王最终报销金额=300×45%=135元。即老王最终需要自费165元，此时<strong>如果老王医保个人账户里有钱，也是可以直接用来支付这165元的</strong>。</p>
+<p><strong>2）住院</strong></p>
+<p>住院通常指需要一段时间的集中治疗，如做手术等。在入院刷医保卡的那一刻，医院系统便会自动连接医保系统，通过统筹账户来报销你住院期间的花费开销；但如果没有医保卡就在定点医院住院，则需要由本人先垫付住院费用，待治疗结束后再携带相关资料前往当地社保局进行报销即可。</p>
+<p>医院的级别越高，报销的比例往往越低。</p>
+<p><img src="https://pic4.zhimg.com/80/v2-f25c8ebfdff66e85e92448f64f5ffc53_720w.jpg" alt="img"></p>
+<p>举个例子，假设小赵因为阑尾炎在郑州某三甲医院住院一个星期，期间手术加住院费共13000，其中2000元是社保外用药那么小赵可报销金额=</p>
+<p>（8000-2000）×55%=3300元</p>
+<p>（13000-8000-2000）×65%=1950元</p>
+<p>即3300+1950=5250元，也就意味着小赵最终需要自费7750元。</p>
+<p><strong>3）大病报销</strong></p>
+<p>暂时不提了</p>
+<h2 id="如何使用医保最省钱"><a href="#如何使用医保最省钱" class="headerlink" title="如何使用医保最省钱"></a>如何使用医保最省钱</h2><ol>
+<li>谨慎选择定点医院</li>
+<li>小病不去大医院</li>
+<li>尽量选择社保范围内用药</li>
+</ol>
+<h2 id="异地就医"><a href="#异地就医" class="headerlink" title="异地就医"></a>异地就医</h2><p>在医保办理地的社保管理中心申请一张《长期异地就医等级备案表》，进行异地就医备案。备案成功后，万一在外地生病住院，只要是<strong>在异地定点医院内</strong>，就可以实现异地就医的实时结算。也就是说，在就医前需要先查好定点医院，选择好要就医的跨省定点医疗机构。</p>
+<p><strong>那异地就医该怎么报销呢？</strong></p>
+<p>三个原则：就医地目录、参保地政策、就医地管理，即执行就医地的支付范围，参保地的支付政策、享受和本地参保人员相同的服务和管理。</p>
+<p>举个例子，假设老李在郑州交的社保，去北京看肺癌，但肺癌能不能报销，是看北京的医保目录；如果是包含在其报销目录内，那么报销多少则是要看郑州医保的报销比例和报销限额。</p>
+<h2 id="转诊"><a href="#转诊" class="headerlink" title="转诊"></a>转诊</h2><p>也属于异地就医的情形之一，同样需要先备案，查定点，跟上述异地就医一样。</p>
+<p><strong>但是不论是从省内地级市医院转往省会医院，还是从省会医院转往北上广这些顶尖医院，前提一定是在主治医生和医院的同意下</strong>，并开具了“转诊医院证明”，才能使用社保卡报销。</p>
+<p>说白了就是医院不是你想转就转的，医院也要挣钱的，他们才不会舍得放弃你这块肥肉，除非是自己确实医疗水平有限。当然如果你在医院有关系，也不代表没有捷径可以走。</p>
+]]></content>
+      <categories>
+        <category>生活知识</category>
+      </categories>
+      <tags>
+        <tag>人身权益</tag>
+        <tag>保险</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>青椒炒肉</title>
+    <url>/2020/06/26/%E9%9D%92%E6%A4%92%E7%82%92%E8%82%89/</url>
+    <content><![CDATA[<p>青椒炒肉！吃的爽啊</p>
+<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>青椒、猪肉、老抽、生抽、料酒、盐、大蒜</p>
+<ul>
+<li><p>猪肉最好是带点肥肉的前腿/后腿肉。要求瘦的地方绝对的瘦。</p>
+</li>
+<li><p>其中，青椒的优先级如图所示：</p>
+<a id="more"></a>
+
+</li>
+</ul>
+<img src="https://pic3.zhimg.com/80/v2-4893d4b93229ac460cffb9a305995880_720w.jpg" alt="img" style="zoom:50%;">
+
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
+<li><p>处理猪肉。肥瘦肉分离，瘦肉切片后加入料酒、老抽、生抽，腌一把游戏的时间。</p>
+</li>
+<li><p>辣椒和蒜头切片。其中辣椒掏籽+滚刀。</p>
+</li>
+<li><p>干煸辣椒。不放油，中火加入辣椒片，放点盐使劲炒，直到表面起皱，出现虎皮。</p>
+</li>
+<li><p>锅里放一点油，放进肥肉片煸油直到变得焦焦干干。</p>
+</li>
+<li><p>放进瘦肉片大火翻炒，变色后放进大蒜片，<em>可以再加点豆豉</em>。</p>
+</li>
+<li><p>辣椒倒进去一起继续翻炒，用铲子擂肉片和辣椒片。持续40s</p>
+</li>
+<li><p>放进生抽再炒15秒，关火！</p>
+</li>
+</ol>
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><img src="/2020/06/26/%E9%9D%92%E6%A4%92%E7%82%92%E8%82%89/炒肉.jpg" style="zoom:20%;">
+
+<p>其实还真的蛮好吃的，不过就是肉片有点太厚了，还好都熟了。</p>
+<p>真的稍微辣点的辣椒很下饭啊。</p>
+]]></content>
+      <categories>
+        <category>生活知识</category>
+      </categories>
+      <tags>
+        <tag>做菜</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记网站的重新启用！</title>
+    <url>/2021/03/29/%E8%AE%B0%E7%BD%91%E7%AB%99%E7%9A%84%E9%87%8D%E6%96%B0%E5%90%AF%E7%94%A8%EF%BC%81/</url>
+    <content><![CDATA[<p>2021.3.29</p>
+<h2 id="关于回归"><a href="#关于回归" class="headerlink" title="关于回归"></a>关于回归</h2><p>本博客启用于2020年5月，本意是用于记录生活，甚至是保持一个日记的习惯；但其实更多来说，是为了打发疫情在家的无聊时间而已。</p>
+<p>来到了2021年将近4月，事情必然是远多于一年前，尤其是需要找寻工作机会。也正是因为这个原因，反倒希望在这段比较忙的时间里，通过博客的方式记录生活和学习的心得，算是对自己的监督。</p>
+<p>做一个自己的网站确实与写日记、记notion相比是低效率的，但是如果可以通过这种低效率的行为提高自身的学习工作效率，觉得还是大有裨益的。</p>
+<a id="more"></a>
+
+<p>至于之前的关于生活知识和做菜的内容，可能在闲余时间仍有更新。</p>
+<h2 id="更新规划"><a href="#更新规划" class="headerlink" title="更新规划"></a>更新规划</h2><p>自寒假期间起，断断续续开始学习供应链相关的知识，并希望可以从事相关的工作。</p>
+<p>进度亟待加紧，至今学习刘宝红《采购与供应链管理》仍停留在第一章，想借本博客督促自己提高学习进度。暂定于本周完成第一篇：供应链的全局观的学习，借清明节假期整理学习体会发表至博客（4.5之前）。</p>
+<p>从下周开始，每周末更新本周的学习计划，同时争取在劳动节假期完成本书的学习。</p>
+<p>学习过程中采用的形式为先阅读+notion回顾，再通过每周的blog整理，以期达到最好的学习效果。</p>
+]]></content>
+  </entry>
+</search>
